@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "Classima",
-    "slug": "classima",
-    "version": "1.0.0",
+    "name": "Motoruum",
+    "slug": "motoruum",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/newIcon.png",
     "userInterfaceStyle": "light",
     "plugins": [
       [
@@ -49,11 +49,11 @@
     ],
     "splash": {
       "image": "./assets/splash.png",
-      "backgroundColor": "#f85c70",
+      "backgroundColor": "#ffb347",
       "resizeMode": "cover"
     },
     "notification": {
-      "icon": "./assets/icon96x96.png",
+      "icon": "./assets/newIcon96x96.png",
       "color": "#ffffff",
       "iosDisplayInForeground": true,
       "androidMode": "default"
@@ -70,14 +70,14 @@
       "buildNumber": "1",
       "usesIcloudStorage": true,
       "infoPlist": {
-        "NSUserTrackingUsageDescription": "Classima wants to track you to collect IDFA to deliver personalised ads.",
-        "NSCameraUsageDescription": "Classima uses the camera to capture and upload user profile image and Listing Image to the server.",
-        "NSPhotoLibraryUsageDescription": "Classima needs access to the photo library to select and upload user profile image and Listing Image to the server.",
-        "NSPhotoLibraryAddUsageDescription": "Classima needs access to the photo library to select and upload user profile image and Listing Image to the server.",
-        "NSLocationWhenInUseUsageDescription": "Classima uses device location on listing information, Listing search Data and User information.",
-        "NSLocationAlwaysAndWhenInUseUsageDescription": "Classima uses device location on listing information, Listing search Data and User information.",
-        "NSLocationAlwaysUsageDescription": "Classima uses device location on listing information, Listing search Data and User information.",
-        "NSMicrophoneUsageDescription": "Classima uses your microphone while taking video of your product for uploading in listing information.",
+        "NSUserTrackingUsageDescription": "Motoruum, kişiselleştirilmiş reklamlar sunmak için IDFA toplamayı amaçlıyor.",
+        "NSCameraUsageDescription": "Motoruum, profil fotoğrafı ve İlan Görseli çekmek ve sunucuya yüklemek için kamerayı kullanır.",
+        "NSPhotoLibraryUsageDescription": "Motoruum, profil fotoğrafı ve İlan Görseli seçmek ve yüklemek için fotoğraf kütüphanesine erişime ihtiyaç duyar.",
+        "NSPhotoLibraryAddUsageDescription": "Motoruum, profil fotoğrafı ve İlan Görseli seçmek ve yüklemek için fotoğraf kütüphanesine erişime ihtiyaç duyar.",
+        "NSLocationWhenInUseUsageDescription": "Motoruum, ilan bilgileri, İlan arama verileri ve Kullanıcı bilgileri için cihaz konumunu kullanır.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Motoruum, ilan bilgileri, İlan arama verileri ve Kullanıcı bilgileri için cihaz konumunu kullanır.",
+        "NSLocationAlwaysUsageDescription": "Motoruum, ilan bilgileri, İlan arama verileri ve Kullanıcı bilgileri için cihaz konumunu kullanır.",
+        "NSMicrophoneUsageDescription": "Motoruum, ürününün videosunu çekerken mikrofonunu kullanır ve ilan bilgileri için yükleme yapar.",
         "CFBundleAllowMixedLocalizations": true,
         "UIBackgroundModes": ["remote-notification"]
       },
@@ -115,8 +115,8 @@
       "versionCode": 41
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/newFavicon.png"
     },
-    "scheme": "classima"
+    "scheme": "motoruum"
   }
 }

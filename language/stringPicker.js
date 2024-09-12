@@ -3,6 +3,7 @@ const defaultLng = "en";
 const lngs = {
   en: require("./en.json"),
   ar: require("./ar.json"),
+  tr: require("./tr.json"),
 };
 
 // Do not edit/remove/add anything below this line!!!

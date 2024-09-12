@@ -134,11 +134,11 @@
   },
 
   "tabTitles": {
-    "home": "Home",
-    "search": "Search",
-    "newListing": "Post Ad",
-    "chatList": "Chats",
-    "account": "Account"
+    "home": "Anasayfa",
+    "search": "Arama",
+    "newListing": "İlan ver",
+    "chatList": "Sohbetler",
+    "account": "Hesabım"
   },
 
   "headerBackButtonTitle": "Back",
