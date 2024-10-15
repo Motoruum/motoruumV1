@@ -701,7 +701,7 @@ const HomeNavigator = () => {
         }}
       >
         <Image
-          source={require("../assets/splash.png")}
+          source={require("../assets/splash_new.png")}
           style={{ height: "100%", width: "100%", resizeMode: "cover" }}
         />
       </View>

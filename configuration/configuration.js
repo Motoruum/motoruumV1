@@ -1,4 +1,4 @@
 export const configuration = {
-  appName: "Classima",
+  appName: "Motoruum",
   currentVersion: "2.65.7",
 };

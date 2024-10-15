@@ -1,6 +1,7 @@
 const defaultLng = "tr";
 
 const lngs = {
+  tr: require("./tr.json"),
   en: require("./en.json"),
   ar: require("./ar.json"),
 

@@ -74,7 +74,7 @@ const DrawerScreen = (props) => {
           }}
         >
           <Image
-            source={require("../assets/newlogo_header.png")}
+            source={require("../assets/logo_header_new.png")}
             style={{ height: "100%", width: "100%", resizeMode: "contain" }}
           />
         </View>

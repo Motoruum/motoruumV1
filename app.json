@@ -4,7 +4,7 @@
     "slug": "motoruum",
     "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/newIcon.png",
+    "icon": "./assets/Icon_new.png",
     "userInterfaceStyle": "light",
     "plugins": [
       [
@@ -47,13 +47,8 @@
       "expo-localization",
       "expo-font"
     ],
-    "splash": {
-      "image": "./assets/splash.png",
-      "backgroundColor": "#ffb347",
-      "resizeMode": "cover"
-    },
     "notification": {
-      "icon": "./assets/newIcon96x96.png",
+      "icon": "./assets/Icon96x96_new.png",
       "color": "#ffffff",
       "iosDisplayInForeground": true,
       "androidMode": "default"
@@ -61,7 +56,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "bitcode": "Debug",
       "usesAppleSignIn": true,
@@ -79,7 +76,9 @@
         "NSLocationAlwaysUsageDescription": "Motoruum, ilan bilgileri, İlan arama verileri ve Kullanıcı bilgileri için cihaz konumunu kullanır.",
         "NSMicrophoneUsageDescription": "Motoruum, ürününün videosunu çekerken mikrofonunu kullanır ve ilan bilgileri için yükleme yapar.",
         "CFBundleAllowMixedLocalizations": true,
-        "UIBackgroundModes": ["remote-notification"]
+        "UIBackgroundModes": [
+          "remote-notification"
+        ]
       },
       "config": {
         "googleMapsApiKey": "h87nm7765gb87ni-ux2m6A",
@@ -94,7 +93,7 @@
         }
       },
       "adaptiveIcon": {
-        "foregroundImage": "./assets/newadaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon_new.png",
         "backgroundColor": "#fff"
       },
       "permissions": [
@@ -111,12 +110,20 @@
         "android.permission.INTERNET",
         "POST_NOTIFICATIONS"
       ],
-      "blockedPermissions": ["READ_CONTACTS", "RECORD_AUDIO"],
+      "blockedPermissions": [
+        "READ_CONTACTS",
+        "RECORD_AUDIO"
+      ],
       "versionCode": 41
     },
     "web": {
-      "favicon": "./assets/newFavicon.png"
+      "favicon": "./assets/Favicon_new.png"
     },
-    "scheme": "motoruum"
+    "scheme": "motoruum",
+    "extra": {
+      "eas": {
+        "projectId": "71a9f93b-9a2e-4467-b84a-a54e6b71695f"
+      }
+    }
   }
 }

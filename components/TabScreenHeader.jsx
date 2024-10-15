@@ -15,7 +15,7 @@ import { MaterialIcons } from "@expo/vector-icons";
 import { COLORS } from "../variables/color";
 import { useNavigation } from "@react-navigation/native";
 import { routes } from "../navigation/routes";
-const headerLogoURL = require("../assets/newlogo_header.png");
+const headerLogoURL = require("../assets/logo_header_new.png");
 
 const TabScreenHeader = ({
   right,

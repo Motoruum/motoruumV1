@@ -1,15 +1,15 @@
 export const COLORS = {
-  primary: "#f85c70",
-  primary_soft: "#ff8f9d",
-  bg_primary: "#ffd1d6",
+  primary: "#ffb347",
+  primary_soft: "#ffd1a8",
+  bg_primary: "#fff0e0",
 
   button: {
-    disabled: "#f797a3",
-    active: "#f85c70",
+    disabled: "#ffd1a8",
+    active: "#ffb347",
     account_delete_bg: "#ff0000",
   },
 
-  bg_splash: "#f85c70",
+  bg_splash: "#ffb347",
 
   badges: {
     _top: "#f39f0a",
@@ -24,7 +24,7 @@ export const COLORS = {
       "is-bump-up": "#f85c70",
       new: "#f85c70",
       "is-popular": "#f85c70",
-      popular: "#f85c70",
+      popular: "#ffb347",
     },
     text: {
       "is-popular": "#ffffff",

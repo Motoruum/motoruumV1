@@ -330,7 +330,7 @@ const SignUpScreen = ({ navigation, route }) => {
               }}
             >
               <Image
-                source={require("../assets/auth_logo.png")}
+                source={require("../assets/auth_logo_new.png")}
                 style={{
                   width: screenWidth * 0.5,
                   height: screenWidth * 0.25,
