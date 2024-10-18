@@ -817,10 +817,10 @@ const HomeScreen = ({ navigation }) => {
         <View style={styles.featuredContainer}>
           <View style={styles.topTitleBar}>
             <View style={styles.topTitleContainer}>
-              <Text style={styles.topTitle}>Featured Ads</Text>
+              <Text style={styles.topTitle}>Acil İlanlar</Text>
             </View>
             <Pressable style={styles.topSeeAllContainer} onPress={onFeatured}>
-              <Text style={styles.topSeeAll}>See All</Text>
+              <Text style={styles.topSeeAll}>Hepsini Gör</Text>
             </Pressable>
           </View>
           <FlatList
@@ -837,10 +837,10 @@ const HomeScreen = ({ navigation }) => {
         <View style={styles.topContainer}>
           <View style={styles.topTitleBar}>
             <View style={styles.topTitleContainer}>
-              <Text style={styles.topTitle}>Top Ads</Text>
+              <Text style={styles.topTitle}>Popüler İlanlar</Text>
             </View>
             <Pressable style={styles.topSeeAllContainer} onPress={onTop}>
-              <Text style={styles.topSeeAll}>See All</Text>
+              <Text style={styles.topSeeAll}>Hepsini Gör</Text>
             </Pressable>
           </View>
           <FlatList
