@@ -1,5 +1,5 @@
 {
-    "screenTitles": {
+  "screenTitles": {
     "accountScreen": "Hesap",
     "chatScreen": "Sohbet",
     "loginScreen": "Giriş Yap",
@@ -15,7 +15,7 @@
     "moreScreen": "Daha Fazla Seçenek",
     "myProfileScreen": "Profilim",
     "editPersonalDetailScreen": "Kişisel Bilgileri Düzenle",
-    "aboutAppScreen": "Motoruum",
+    "aboutAppScreen": "Hakkımızda",
     "tNCScreen": "Şartlar ve Koşullar",
     "privacyPolicyScreen": "Gizlilik Politikası",
     "editListingScreen": "İlanı Düzenle",
@@ -46,7 +46,7 @@
     "adminNoteScreen": "Yönetici Notu",
     "allPaymentsSCreen": "Tüm Ödemeler"
   },
-    "bookingScreenTexts": {
+  "bookingScreenTexts": {
     "fee": "Rezervasyon ücreti : ",
     "preOrderfee": "Ön Sipariş Ücreti : ",
     "noOfGuest": "Misafir : ",
@@ -95,398 +95,398 @@
       "cancelled": "İptal Edildi",
       "rejected": "Reddedildi"
     },
-     "cancelBtn": "İptal",
-      "cancelWarning": "Bu rezervasyonu gerçekten iptal etmek istiyor musunuz?",
-      "approveBtn": "Onayla",
-      "approveWarning": "Bu rezervasyonu gerçekten onaylamak istiyor musunuz?",
-      "rejectBtn": "Reddet",
-      "rejectWarning": "Bu rezervasyonu gerçekten reddetmek istiyor musunuz?",
-      "deleteBtn": "Sil",
-      "deleteWarning": "Bu rezervasyonu gerçekten silmek istiyor musunuz?",
-      "yesBtn": "Evet",
-      "noBtn": "Hayır"
-      },
-  
-      "safetyScreenTexts": {
-        "hiddenListingsBtn": "Gizli İlanlar",
-        "blockedUsersBtn": "Engellenen Kullanıcılar"
-      },
-  
-  
-      "adMobTexts": {
-        "okButton": "Tamam",
-        "appDisabledAlert": "Bu uygulama, Google AdMob kullanarak size reklamlar sunar. Kişiselleştirilmiş reklamları etkinleştirmek istiyorsanız, ayarlardan bu uygulama için izni verebilirsiniz."
-      },
-  
-      "weekDayNames": {
-        "0": "Pazar",
-        "1": "Pazartesi",
-        "2": "Salı",
-        "3": "Çarşamba",
-        "4": "Perşembe",
-        "5": "Cuma",
-        "6": "Cumartesi"
-      },
-  
-      "alerts": {
-        "notificationRegistrationFail": "Cihazı push bildirimleri için kaydederken hata oluştu.",
-        "notificationPermission": "Push bildirimlerini alabilmek için izinleri etkinleştirin.",
-        "simulatorAlert": "Push Bildirimleri için fiziksel bir cihaz kullanılmalıdır."
-      },
-  
-      "tabTitles": {
-        "home": "Ana Sayfa",
-        "search": "Arama",
-        "newListing": "İlan Ver",
-        "chatList": "Sohbet",
-        "account": "Hesabım"
-      },
-  
-      "headerBackButtonTitle": "Geri",
-  
-      "accountScreenTexts": {
-        "loginButtonText": "Giriş Yap / Kayıt Ol",
-        "logOutButtonText": "Çıkış Yap",
-        "successMessage": "Başarıyla çıkış yapıldı",
-        "loginTitle": "Devam etmek için giriş yapmalısınız",
-        "deleteAccountBtn": "Hesabı Sil",
-        "deleteAccountPrompt": "Hesabınızı silmek istiyor musunuz?",
-        "okBtnTitle": "Tamam",
-        "deleteAccountMessageTitle": "Uyarı!",
-        "deleteAccountMessage": "Hesabınızı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
-        "cancelBtnTitle": "İptal",
-        "confirmBtnTitle": "Silme İşlemini Onayla"
-      },
-  
-        "settingsScreenTexts": {
-        "select": "Seç",
-        "currencyTitle": "Para Birimi",
-        "screenTitle": "Ayarlar",
-        "notificationTitle": "Bildirimler",
-        "languageTitle": "Dil",
-        "ListingApprovalNotiTitle": "İlan Onayı",
-        "newsletterNotiTitle": "Bülten",
-        "messageNotiTitle": "Yeni Sohbet",
-        "reminderBeforeListingExpire": "İlanın süresi dolmadan önce hatırlat",
-        "expiredListingNotification": "Süresi Dolmuş İlan",
-        "onlyAdmin": {
-          "newListing": "Yeni İlanlar",
-          "newOrder": "Yeni Siparişler",
-          "newComment": "Yeni Yorumlar"
-        },
-        "logoutbuttonTitle": "Çıkış Yap",
-        "viewStyleTitle": "İlan Görüntüleme Stili",
-        "listView": "Liste Görünümü"
-      },
-  
-      "allStoresTexts": {
-        "noShopText": "Üzgünüz, Mağaza bulunamadı.",
-        "storeAdCount": "ilan",
-        "searchPlaceholder": "Ara..."
-      },
-  
-      "forgotScreenTexts": {
-        "title": "E-posta Adresi",
-        "message": "Şifrenizi sıfırlamak için e-posta adresinizi girin.",
-        "placeholder": "Kullanıcı Adı / E-posta Adresi",
-        "buttonTitle": "Devam Et",
-  
-        "passwordReset": "Şifrenizi sıfırlamak için bir bağlantı içeren e-posta alacaksınız.",
-        "resetSuccessMessage": "Şifrenizi sıfırlamak için bir bağlantı e-postanıza gönderildi"
-      },
-  
-      "chatListScreenTexts": {
-        "noChatTitleMessage": "Şu anda sohbetiniz yok",
-        "noChatMessage": "Alım satıma başlayın!",
-        "deletePromptMessage": "Bu sohbeti gerçekten silmek istiyor musunuz?",
-        "cancelButtonTitle": "İptal",
-        "deleteButtonTitle": "Sil",
-        "noUserMessage": "Şu anda giriş yapmadınız\nLütfen giriş yapın veya kayıt olun, sohbet verilerinizi almak için",
-        "chatDeleteSuccessText": "Başarıyla silindi",
-        "chatDeleteErrorText": "Hata! Lütfen tekrar deneyin",
-        "offlineNoticeText": "Çevrimdışı",
-        "loginButtonTitle": "Giriş Yap / Kayıt Ol",
-        "scrollToRefresh": "Sohbet listesine yenilemek için kaydırın"
-      },
-  
-       "chatScreenTexts": {
-        "dactivatedMessage": "Alıcı konuşmayı silmiş",
-        "placeholder": {
-          "message": "Bir mesaj yazın"
-        },
-        "reportBtnTitle": "Kötüye Kullanımı Bildir",
-        "reportAlertTitle": "Kullanıcıyı Bildir",
-        "reportAlertText": "Bu kullanıcıyı kötüye kullanım nedeniyle gerçekten bildirmek istiyor musunuz? Bildirirseniz, site yöneticileri bu kullanıcı hakkında bir rapor alacak ve raporu gelecekteki işlemler için inceleyeceklerdir. Ayrıca bu konuşma silinecek ve kullanıcı bu konuşma aracılığıyla yeni bir mesaj gönderemeyecektir.",
-        "cancelBtnTitle": "İptal",
-        "confirmBtnTitle": "Raporla",
-        "now": "şimdi"
-      },
-  
-      "contactUsScreenTexts": {
-        "sendmessageButtontitle": "Mesaj Gönder",
-        "successMessage": "Mesajınız başarıyla gönderildi",
-        "customServerResponseError": "Sunucu Hatası!",
-        "formData": {
-          "name": {
-            "label": "Adınız",
-            "placeholder": "Adınızı girin...",
-            "errorLabel": "Ad"
-          },
-          "phone": {
-            "label": "Telefon Numarası",
-            "placeholder": "Telefon Numaranızı girin...",
-            "errorLabel": "Telefon Numarası"
-          },
-          "email": {
-            "label": "E-posta",
-            "placeholder": "örnek@email.com",
-            "errorLabel": "E-posta"
-          },
-          "message": {
-            "label": "Mesaj",
-            "placeholder": "Mesajınızı girin...",
-            "errorLabel": "Mesaj"
-          }
-        },
-        "formValidation": {
-          "requiredField": "Gerekli.",
-          "minimumLength5": "En az 5 karakter olmalıdır.",
-          "minimumLength3": "En az 3 karakter olmalıdır.",
-          "validEmail": "Geçerli bir e-posta olmalıdır."
-        }
-      },
-  
-    "editListingScreenTexts": {
-        "maxImageWarning": "Maksimum resim sayısına ulaşıldı",
-        "title": "İlan Düzenleme Formu",
-        "formFieldLabels": {
-          "listingTitle": "Başlık",
-          "pricingLabel": "Fiyatlandırma",
-          "priceType": "Fiyat Türü",
-          "price": "Fiyat",
-          "maxPrice": "Maksimum Fiyat",
-          "listingDescription": "Açıklama",
-          "videoUrl": "Video URL",
-          "contact": "İletişim Bilgileri",
-          "zipCode": "Posta Kodu",
-          "address": "Adres",
-          "phone": "Telefon",
-          "whatsapp": "Whatsapp",
-          "email": "E-posta",
-          "website": "Web Sitesi",
-          "name": "İsim",
-          "imageInput": "Resimler",
-          "formTitle": "Ürün Bilgileri",
-          "title": "Başlık"
-        },
-        "formValidation": {
-          "requiredField": "gerekli.",
-          "minimumLength5": "en az 5 karakter olmalıdır.",
-          "minimumLength3": "en az 3 karakter olmalıdır.",
-          "validEmail": "Geçerli bir e-posta olmalıdır.",
-          "validUrl": "Geçerli bir URL olmalıdır."
-        },
-        "buttonTitles": {
-          "tryAgain": "Tekrar Dene",
-          "updateListing": "İlanı Güncelle",
-          "mapStandard": "Standart",
-          "mapHybrid": "Karma"
-        },
-  
-      "mapToggleMessage": "Haritayı göstermeyin.",
-      "whatsappNote": "Whatsapp numarası ülke kodunuzla birlikte. Örn. +1xxxxxxxxxx",
-      "uploadErrorNotice": "Yükleme hatası! Lütfen tekrar deneyin.",
-      "uploadingNotice": "Bu, internet bağlantınızın hızına bağlı olarak bir süre alabilir...",
-      "maxImageCount": "En fazla ",
-      "images": " resim yükleyebilirsiniz.",
-      "dragAndSort": "Resimleri sürükleyip sıralamak için uzun basın.",
-      "loading": "İlan verilerini alıyor",
-      "geoCoderFail": "Harita Servisi Hatası!",
-      "imageFieldCustomError": "Resim gereklidir.",
-      "requiredFieldCustomError": "Bu alan gereklidir.",
-      "websiteErrorLabel": "Geçerli bir URL girin!",
-      "videoUrlErrorLabel": "URL'yi doğru formatta girin!",
-      "videoUrlNote": "Örn. https://www.youtube.com/watch?v=RiXdDGk_XCU",
-      "requiredFieldNotice": "*** Kırmızı yıldız ile işaretlenmiş alanlar gereklidir ***",
-      "socialProfileTitle": "Sosyal Profiller"
+    "cancelBtn": "İptal",
+    "cancelWarning": "Bu rezervasyonu gerçekten iptal etmek istiyor musunuz?",
+    "approveBtn": "Onayla",
+    "approveWarning": "Bu rezervasyonu gerçekten onaylamak istiyor musunuz?",
+    "rejectBtn": "Reddet",
+    "rejectWarning": "Bu rezervasyonu gerçekten reddetmek istiyor musunuz?",
+    "deleteBtn": "Sil",
+    "deleteWarning": "Bu rezervasyonu gerçekten silmek istiyor musunuz?",
+    "yesBtn": "Evet",
+    "noBtn": "Hayır"
+  },
+
+  "safetyScreenTexts": {
+    "hiddenListingsBtn": "Gizli İlanlar",
+    "blockedUsersBtn": "Engellenen Kullanıcılar"
+  },
+
+
+  "adMobTexts": {
+    "okButton": "Tamam",
+    "appDisabledAlert": "Bu uygulama, Google AdMob kullanarak size reklamlar sunar. Kişiselleştirilmiş reklamları etkinleştirmek istiyorsanız, ayarlardan bu uygulama için izni verebilirsiniz."
+  },
+
+  "weekDayNames": {
+    "0": "Pazar",
+    "1": "Pazartesi",
+    "2": "Salı",
+    "3": "Çarşamba",
+    "4": "Perşembe",
+    "5": "Cuma",
+    "6": "Cumartesi"
+  },
+
+  "alerts": {
+    "notificationRegistrationFail": "Cihazı push bildirimleri için kaydederken hata oluştu.",
+    "notificationPermission": "Push bildirimlerini alabilmek için izinleri etkinleştirin.",
+    "simulatorAlert": "Push Bildirimleri için fiziksel bir cihaz kullanılmalıdır."
+  },
+
+  "tabTitles": {
+    "home": "Ana Sayfa",
+    "search": "Arama",
+    "newListing": "İlan Ver",
+    "chatList": "Sohbet",
+    "account": "Hesabım"
+  },
+
+  "headerBackButtonTitle": "Geri",
+
+  "accountScreenTexts": {
+    "loginButtonText": "Giriş Yap / Kayıt Ol",
+    "logOutButtonText": "Çıkış Yap",
+    "successMessage": "Başarıyla çıkış yapıldı",
+    "loginTitle": "Devam etmek için giriş yapmalısınız",
+    "deleteAccountBtn": "Hesabı Sil",
+    "deleteAccountPrompt": "Hesabınızı silmek istiyor musunuz?",
+    "okBtnTitle": "Tamam",
+    "deleteAccountMessageTitle": "Uyarı!",
+    "deleteAccountMessage": "Hesabınızı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+    "cancelBtnTitle": "İptal",
+    "confirmBtnTitle": "Silme İşlemini Onayla"
+  },
+
+  "settingsScreenTexts": {
+    "select": "Seç",
+    "currencyTitle": "Para Birimi",
+    "screenTitle": "Ayarlar",
+    "notificationTitle": "Bildirimler",
+    "languageTitle": "Dil",
+    "ListingApprovalNotiTitle": "İlan Onayı",
+    "newsletterNotiTitle": "Bülten",
+    "messageNotiTitle": "Yeni Sohbet",
+    "reminderBeforeListingExpire": "İlanın süresi dolmadan önce hatırlat",
+    "expiredListingNotification": "Süresi Dolmuş İlan",
+    "onlyAdmin": {
+      "newListing": "Yeni İlanlar",
+      "newOrder": "Yeni Siparişler",
+      "newComment": "Yeni Yorumlar"
     },
-  
-      "editPersonalDetailScreenTexts": {
-        "screenTitle": "Kişisel Bilgiler",
-        "changePhotoButtonTitle": "Fotoğrafı Değiştir",
-        "updateDetailsButtonTitle": "Bilgileri Kaydet",
-        "passwordToggleText": "Şifreyi Değiştir",
-        "passwordNotSameMessage": "Şifreler uyuşmuyor",
-        "successText": "Başarıyla güncellendi",
-        "errorText": "Hata! Lütfen tekrar deneyin",
-        "cancelButtonTitle": "İptal",
-        "addPhotoTitle": "Fotoğraf Ekle",
-        "takePhotoButtonTitle": "Fotoğraf Çek",
-        "fromGalleryButtonTitle": "Galeriden",
-        "fieldLabels": {
-          "firstName": "Ad",
-          "lastName": "Soyad",
-          "changePassword": "Şifreyi Değiştir",
-          "newPassword": "Yeni Şifre",
-          "confirmPassword": "Şifreyi Onayla",
-          "phone": "Telefon Numarası",
-          "whatsapp": "Whatsapp Numarası",
-          "website": "Web Sitesi",
-          "zipcode": "Posta Kodu",
-          "address": "Adres",
-          "locations": "Lokasyonlar",
-          "password": "Şifre"
-        },
-        "formValidation": {
-          "requiredField": "Gereklidir.",
-          "minimumLength5": "En az 5 karakter olmalıdır.",
-          "minimumLength3": "En az 3 karakter olmalıdır.",
-          "validUrl": "Geçerli bir URL olmalıdır."
-        },
-        "enterNewPassword": "Yeni Şifre Girin",
-        "reEnterPassword": "Şifreyi Tekrar Girin",
-        "cameraRollPermissionAlert": "Resim kütüphanesine erişim iznini etkinleştirmeniz gerekiyor",
-        "cameraPermissionAlert": "Kamera erişim iznini etkinleştirmeniz gerekiyor"
+    "logoutbuttonTitle": "Çıkış Yap",
+    "viewStyleTitle": "İlan Görüntüleme Stili",
+    "listView": "Liste Görünümü"
+  },
+
+  "allStoresTexts": {
+    "noShopText": "Üzgünüz, Mağaza bulunamadı.",
+    "storeAdCount": "ilan",
+    "searchPlaceholder": "Ara..."
+  },
+
+  "forgotScreenTexts": {
+    "title": "E-posta Adresi",
+    "message": "Şifrenizi sıfırlamak için e-posta adresinizi girin.",
+    "placeholder": "Kullanıcı Adı / E-posta Adresi",
+    "buttonTitle": "Devam Et",
+
+    "passwordReset": "Şifrenizi sıfırlamak için bir bağlantı içeren e-posta alacaksınız.",
+    "resetSuccessMessage": "Şifrenizi sıfırlamak için bir bağlantı e-postanıza gönderildi"
+  },
+
+  "chatListScreenTexts": {
+    "noChatTitleMessage": "Şu anda sohbetiniz yok",
+    "noChatMessage": "Alım satıma başlayın!",
+    "deletePromptMessage": "Bu sohbeti gerçekten silmek istiyor musunuz?",
+    "cancelButtonTitle": "İptal",
+    "deleteButtonTitle": "Sil",
+    "noUserMessage": "Şu anda giriş yapmadınız\nLütfen giriş yapın veya kayıt olun, sohbet verilerinizi almak için",
+    "chatDeleteSuccessText": "Başarıyla silindi",
+    "chatDeleteErrorText": "Hata! Lütfen tekrar deneyin",
+    "offlineNoticeText": "Çevrimdışı",
+    "loginButtonTitle": "Giriş Yap / Kayıt Ol",
+    "scrollToRefresh": "Sohbet listesine yenilemek için kaydırın"
+  },
+
+  "chatScreenTexts": {
+    "dactivatedMessage": "Alıcı konuşmayı silmiş",
+    "placeholder": {
+      "message": "Bir mesaj yazın"
+    },
+    "reportBtnTitle": "Kötüye Kullanımı Bildir",
+    "reportAlertTitle": "Kullanıcıyı Bildir",
+    "reportAlertText": "Bu kullanıcıyı kötüye kullanım nedeniyle gerçekten bildirmek istiyor musunuz? Bildirirseniz, site yöneticileri bu kullanıcı hakkında bir rapor alacak ve raporu gelecekteki işlemler için inceleyeceklerdir. Ayrıca bu konuşma silinecek ve kullanıcı bu konuşma aracılığıyla yeni bir mesaj gönderemeyecektir.",
+    "cancelBtnTitle": "İptal",
+    "confirmBtnTitle": "Raporla",
+    "now": "şimdi"
+  },
+
+  "contactUsScreenTexts": {
+    "sendmessageButtontitle": "Mesaj Gönder",
+    "successMessage": "Mesajınız başarıyla gönderildi",
+    "customServerResponseError": "Sunucu Hatası!",
+    "formData": {
+      "name": {
+        "label": "Adınız",
+        "placeholder": "Adınızı girin...",
+        "errorLabel": "Ad"
       },
-  
-  
-      "favoritesScreenTexts": {
-        "removePromptMessage": "Bu ilanı favorilerinizden kaldırmak ister misiniz?",
-        "cancelButtonTitle": "İptal",
-        "removeButtonTitle": "Kaldır",
-        "noFavoriteMessage": "Henüz favorilerinizde herhangi bir ilanınız yok.",
-        "exploreTitle": "Tüm İlanları Gör",
-        "favRemoveSuccessMessage": "Başarıyla kaldırıldı",
-        "favRemoveErrorCustomMessage": "Hata! Lütfen tekrar deneyin",
-        "customServerResponseError": "Sunucudan veri alınırken hata oluştu",
-        "noInternet": "İnternet Yok"
+      "phone": {
+        "label": "Telefon Numarası",
+        "placeholder": "Telefon Numaranızı girin...",
+        "errorLabel": "Telefon Numarası"
       },
-  
-      "homeScreenTexts": {
-        "selectCatBtn": "Değiştir",
-        "seAllButtonText": "Tüm Kategorileri Gör",
-        "listingSearchPlaceholder": "Ara...",
-        "noListingsMessage": "Üzgünüz... Hiçbir ilan bulunamadı.",
-        "selectLocationText": "Konum",
-        "latestAdsText": "Son İlanlar",
-        "topCategoriesText": "Kategoriler",
-        "requestTimedOut": "İstek Zaman Aşımına Uğradı!",
-        "exitAppWarning": "Uygulamadan çıkmak istediğinizden emin misiniz?",
-        "cancelButtonTitle": "İptal",
-        "yesButtonTitle": "Evet",
-        "retryBtn": "Yeniden Dene",
-        "refreshBtn": "Yenile"
+      "email": {
+        "label": "E-posta",
+        "placeholder": "örnek@email.com",
+        "errorLabel": "E-posta"
       },
-  
-      "listingDetailScreenTexts": {
-        "soldOutMessage": "Tükendi",
-        "cancelButtonTitle": "İptal",
-        "loginButtonTitle": "Giriş Yap",
-        "pageTitle": "Detaylar",
-        "showLess": "Daha Az Göster",
-        "showMore": "Daha Fazla Göster",
-        "sellerPrefix": "Satıcı:",
-        "description": "Açıklama",
-        "mapButtons": {
-          "standard": "Standart",
-          "hybrid": "Hibrit"
-        },
-        "similar": "Benzer İlanlar",
-        "call": "Ara",
-        "custom_fields": {
-          "date_range": {
-            "start": "Başlangıç: ",
-            "end": "Bitiş: "
-          },
-          "date_time_range": {
-            "start": "Başlangıç: ",
-            "end": "Bitiş: "
-          }
-        },
-        "chatLoginAlert": "Bu satıcı ile sohbet etmek için giriş yapmanız gerekiyor",
-        "emailLoginAlert": "Satıcıya e-posta göndermek için giriş yapmanız gerekiyor",
-        "loginAlert": "Bu özelliği kullanmak için giriş yapmanız gerekiyor.",
-        "priceTypes": {
-          "fixed": "Sabit",
-          "onCall": "Telefonla",
-          "negotiable": "Pazarlıkla"
-        },
-        "socialProfileTitle": "Sosyal Profiller",
-        "businessHoursTitle": "Çalışma Saatleri",
-        "bHTexts": {
-          "openTitle": "Açık",
-          "closeTitle": "Kapalı",
-          "openText": "Açık (24 Saat)",
-          "openTodayText": "Bugün Açık (24 Saat)",
-          "closeText": "Kapalı",
-          "closeTodayText": "Bugün Kapalı",
-          "currentStatusOpen": "Şu anda açık durumdayız.",
-          "currentStatusClose": "Üzgünüz, şu anda kapalıyız."
-        },
-        "whatsappButton": "Whatsapp'ı Aç",
-        "showRatingBtn": "Yorumları Göster",
-        "hideRatingBtn": "Yorumları Gizle",
-        "ratingHeader": {
-          "zero": "Yorum Yok",
-          "single": " Yorum",
-          "multiple": " Yorum"
-        },
-        "ratingFormTitle": "Yorum Bırak",
-        "ratingFormNotice": "E-posta adresiniz yayımlanmayacaktır. Gerekli alanlar kırmızı yıldız ile işaretlenmiştir.",
-        "formLabels": {
-          "name": "İsim",
-          "email": "E-posta",
-          "title": "Yorum Başlığı",
-          "rating": "Puanınız",
-          "review": "Yorumunuz"
-        },
-        "formValidation": {
-          "required": "gereklidir",
-          "invalid": "geçersiz"
-        },
-        "submitBtn": "Gönder",
-        "reviewNotice": "Yorumunuz başarıyla gönderildi. Onaylandıktan sonra diğer yorumlarla birlikte gösterilecektir.",
-        "reviewApproved": "Yorum başarılı.",
-        "postTimePrefix": "Gönderildi ",
-        "deletedValue": "[Değer yönetici tarafından kaldırıldı]",
-        "seeAllAds": "Tüm İlanları Gör",
-        "verified": "Doğrulanmış Satıcı",
-        "share": "Bu ilanı paylaş",
-        "blockAd": "Bu ilanı bana gösterme",
-        "unfollowSeller": "Bu satıcıdan ilan gösterme",
-        "reportAd": "Bu ilanı bildir",
-        "blockAdAlert": "Bu ilanı gizlemek istediğinizden emin misiniz? Gizlerseniz, bu ilan size bir daha gösterilmeyecek.",
-        "blockAdConfirmBtn": "Gizle",
-        "blockAdCancelBtn": "İptal",
-        "blockAdSuccessMessage": "İlan başarıyla gizlendi.",
-        "blockUserAlert": "Bu kullanıcıyı engellemek istediğinizden emin misiniz? Engellerseniz, bu kullanıcıdan hiçbir ilan göremezsiniz ve size mesaj gönderemez.",
-        "blockUserConfirmBtn": "Engelle",
-        "blockUserCancelBtn": "İptal",
-        "blockUserSuccessMessage": "Kullanıcı başarıyla engellendi.",
-        "bookingTitle": "Rezervasyon",
-        "booking_fee_label": "Rezervasyon Ücreti",
-        "instant_booking_label": "Anında Rezervasyon",
-        "booking_button_text": "Şimdi Rezervasyon Yap",
-        "available_ticket_label": "Mevcut Biletler",
-        "no_of_ticket": "Misafir Sayısı",
-        "no_of_guest": "Misafir Sayısı",
-        "rent_date_range": "Tarih",
-        "service_time_title": "Hizmet Zamanı",
-        "service_time_slot_title": "Hizmet Zamanı",
-        "select_time_slot": "Zaman Dilimi Seç",
-        "service_not_available": "Üzgünüz! Seçilen tarihte hizmet mevcut değil.",
-        "max_guest_label": "Maksimum Misafir Sayısı",
-        "min_guest_label": "Minimum Misafir Sayısı 1.",
-        "time_slot_required": "Lütfen bir zaman dilimi seçin",
-        "ticketUnavilable": "Üzgünüz! Tüm biletler tükendi. Lütfen daha sonra kontrol edin.",
-        "rentDateRangeMissing": "Lütfen uygun bir tarih aralığı seçin.",
-        "pre_order_available_volume": "Mevcut Hacim",
-        "pre_order_available_date": "Mevcut Tarih",
-        "pre_order_number_of_item": "Ürün Sayısı",
-        "okBtnTitle": "Tamam"
+      "message": {
+        "label": "Mesaj",
+        "placeholder": "Mesajınızı girin...",
+        "errorLabel": "Mesaj"
+      }
+    },
+    "formValidation": {
+      "requiredField": "Gerekli.",
+      "minimumLength5": "En az 5 karakter olmalıdır.",
+      "minimumLength3": "En az 3 karakter olmalıdır.",
+      "validEmail": "Geçerli bir e-posta olmalıdır."
+    }
+  },
+
+  "editListingScreenTexts": {
+    "maxImageWarning": "Maksimum resim sayısına ulaşıldı",
+    "title": "İlan Düzenleme Formu",
+    "formFieldLabels": {
+      "listingTitle": "Başlık",
+      "pricingLabel": "Fiyatlandırma",
+      "priceType": "Fiyat Türü",
+      "price": "Fiyat",
+      "maxPrice": "Maksimum Fiyat",
+      "listingDescription": "Açıklama",
+      "videoUrl": "Video URL",
+      "contact": "İletişim Bilgileri",
+      "zipCode": "Posta Kodu",
+      "address": "Adres",
+      "phone": "Telefon",
+      "whatsapp": "Whatsapp",
+      "email": "E-posta",
+      "website": "Web Sitesi",
+      "name": "İsim",
+      "imageInput": "Resimler",
+      "formTitle": "Ürün Bilgileri",
+      "title": "Başlık"
+    },
+    "formValidation": {
+      "requiredField": "gerekli.",
+      "minimumLength5": "en az 5 karakter olmalıdır.",
+      "minimumLength3": "en az 3 karakter olmalıdır.",
+      "validEmail": "Geçerli bir e-posta olmalıdır.",
+      "validUrl": "Geçerli bir URL olmalıdır."
+    },
+    "buttonTitles": {
+      "tryAgain": "Tekrar Dene",
+      "updateListing": "İlanı Güncelle",
+      "mapStandard": "Standart",
+      "mapHybrid": "Karma"
+    },
+
+    "mapToggleMessage": "Haritayı göstermeyin.",
+    "whatsappNote": "Whatsapp numarası ülke kodunuzla birlikte. Örn. +1xxxxxxxxxx",
+    "uploadErrorNotice": "Yükleme hatası! Lütfen tekrar deneyin.",
+    "uploadingNotice": "Bu, internet bağlantınızın hızına bağlı olarak bir süre alabilir...",
+    "maxImageCount": "En fazla ",
+    "images": " resim yükleyebilirsiniz.",
+    "dragAndSort": "Resimleri sürükleyip sıralamak için uzun basın.",
+    "loading": "İlan verilerini alıyor",
+    "geoCoderFail": "Harita Servisi Hatası!",
+    "imageFieldCustomError": "Resim gereklidir.",
+    "requiredFieldCustomError": "Bu alan gereklidir.",
+    "websiteErrorLabel": "Geçerli bir URL girin!",
+    "videoUrlErrorLabel": "URL'yi doğru formatta girin!",
+    "videoUrlNote": "Örn. https://www.youtube.com/watch?v=RiXdDGk_XCU",
+    "requiredFieldNotice": "*** Kırmızı yıldız ile işaretlenmiş alanlar gereklidir ***",
+    "socialProfileTitle": "Sosyal Profiller"
+  },
+
+  "editPersonalDetailScreenTexts": {
+    "screenTitle": "Kişisel Bilgiler",
+    "changePhotoButtonTitle": "Fotoğrafı Değiştir",
+    "updateDetailsButtonTitle": "Bilgileri Kaydet",
+    "passwordToggleText": "Şifreyi Değiştir",
+    "passwordNotSameMessage": "Şifreler uyuşmuyor",
+    "successText": "Başarıyla güncellendi",
+    "errorText": "Hata! Lütfen tekrar deneyin",
+    "cancelButtonTitle": "İptal",
+    "addPhotoTitle": "Fotoğraf Ekle",
+    "takePhotoButtonTitle": "Fotoğraf Çek",
+    "fromGalleryButtonTitle": "Galeriden",
+    "fieldLabels": {
+      "firstName": "Ad",
+      "lastName": "Soyad",
+      "changePassword": "Şifreyi Değiştir",
+      "newPassword": "Yeni Şifre",
+      "confirmPassword": "Şifreyi Onayla",
+      "phone": "Telefon Numarası",
+      "whatsapp": "Whatsapp Numarası",
+      "website": "Web Sitesi",
+      "zipcode": "Posta Kodu",
+      "address": "Adres",
+      "locations": "Lokasyonlar",
+      "password": "Şifre"
+    },
+    "formValidation": {
+      "requiredField": "Gereklidir.",
+      "minimumLength5": "En az 5 karakter olmalıdır.",
+      "minimumLength3": "En az 3 karakter olmalıdır.",
+      "validUrl": "Geçerli bir URL olmalıdır."
+    },
+    "enterNewPassword": "Yeni Şifre Girin",
+    "reEnterPassword": "Şifreyi Tekrar Girin",
+    "cameraRollPermissionAlert": "Resim kütüphanesine erişim iznini etkinleştirmeniz gerekiyor",
+    "cameraPermissionAlert": "Kamera erişim iznini etkinleştirmeniz gerekiyor"
+  },
+
+
+  "favoritesScreenTexts": {
+    "removePromptMessage": "Bu ilanı favorilerinizden kaldırmak ister misiniz?",
+    "cancelButtonTitle": "İptal",
+    "removeButtonTitle": "Kaldır",
+    "noFavoriteMessage": "Henüz favorilerinizde herhangi bir ilanınız yok.",
+    "exploreTitle": "Tüm İlanları Gör",
+    "favRemoveSuccessMessage": "Başarıyla kaldırıldı",
+    "favRemoveErrorCustomMessage": "Hata! Lütfen tekrar deneyin",
+    "customServerResponseError": "Sunucudan veri alınırken hata oluştu",
+    "noInternet": "İnternet Yok"
+  },
+
+  "homeScreenTexts": {
+    "selectCatBtn": "Değiştir",
+    "seAllButtonText": "Tüm Kategorileri Gör",
+    "listingSearchPlaceholder": "Ara...",
+    "noListingsMessage": "Üzgünüz... Hiçbir ilan bulunamadı.",
+    "selectLocationText": "Konum",
+    "latestAdsText": "Son İlanlar",
+    "topCategoriesText": "Kategoriler",
+    "requestTimedOut": "İstek Zaman Aşımına Uğradı!",
+    "exitAppWarning": "Uygulamadan çıkmak istediğinizden emin misiniz?",
+    "cancelButtonTitle": "İptal",
+    "yesButtonTitle": "Evet",
+    "retryBtn": "Yeniden Dene",
+    "refreshBtn": "Yenile"
+  },
+
+  "listingDetailScreenTexts": {
+    "soldOutMessage": "Tükendi",
+    "cancelButtonTitle": "İptal",
+    "loginButtonTitle": "Giriş Yap",
+    "pageTitle": "Detaylar",
+    "showLess": "Daha Az Göster",
+    "showMore": "Daha Fazla Göster",
+    "sellerPrefix": "Satıcı:",
+    "description": "Açıklama",
+    "mapButtons": {
+      "standard": "Standart",
+      "hybrid": "Hibrit"
+    },
+    "similar": "Benzer İlanlar",
+    "call": "Ara",
+    "custom_fields": {
+      "date_range": {
+        "start": "Başlangıç: ",
+        "end": "Bitiş: "
       },
-  
-    "hiddenListingsTexts": {
+      "date_time_range": {
+        "start": "Başlangıç: ",
+        "end": "Bitiş: "
+      }
+    },
+    "chatLoginAlert": "Bu satıcı ile sohbet etmek için giriş yapmanız gerekiyor",
+    "emailLoginAlert": "Satıcıya e-posta göndermek için giriş yapmanız gerekiyor",
+    "loginAlert": "Bu özelliği kullanmak için giriş yapmanız gerekiyor.",
+    "priceTypes": {
+      "fixed": "Sabit",
+      "onCall": "Telefonla",
+      "negotiable": "Pazarlıkla"
+    },
+    "socialProfileTitle": "Sosyal Profiller",
+    "businessHoursTitle": "Çalışma Saatleri",
+    "bHTexts": {
+      "openTitle": "Açık",
+      "closeTitle": "Kapalı",
+      "openText": "Açık (24 Saat)",
+      "openTodayText": "Bugün Açık (24 Saat)",
+      "closeText": "Kapalı",
+      "closeTodayText": "Bugün Kapalı",
+      "currentStatusOpen": "Şu anda açık durumdayız.",
+      "currentStatusClose": "Üzgünüz, şu anda kapalıyız."
+    },
+    "whatsappButton": "Whatsapp'ı Aç",
+    "showRatingBtn": "Yorumları Göster",
+    "hideRatingBtn": "Yorumları Gizle",
+    "ratingHeader": {
+      "zero": "Yorum Yok",
+      "single": " Yorum",
+      "multiple": " Yorum"
+    },
+    "ratingFormTitle": "Yorum Bırak",
+    "ratingFormNotice": "E-posta adresiniz yayımlanmayacaktır. Gerekli alanlar kırmızı yıldız ile işaretlenmiştir.",
+    "formLabels": {
+      "name": "İsim",
+      "email": "E-posta",
+      "title": "Yorum Başlığı",
+      "rating": "Puanınız",
+      "review": "Yorumunuz"
+    },
+    "formValidation": {
+      "required": "gereklidir",
+      "invalid": "geçersiz"
+    },
+    "submitBtn": "Gönder",
+    "reviewNotice": "Yorumunuz başarıyla gönderildi. Onaylandıktan sonra diğer yorumlarla birlikte gösterilecektir.",
+    "reviewApproved": "Yorum başarılı.",
+    "postTimePrefix": "Gönderildi ",
+    "deletedValue": "[Değer yönetici tarafından kaldırıldı]",
+    "seeAllAds": "Tüm İlanları Gör",
+    "verified": "Doğrulanmış Satıcı",
+    "share": "Bu ilanı paylaş",
+    "blockAd": "Bu ilanı bana gösterme",
+    "unfollowSeller": "Bu satıcıdan ilan gösterme",
+    "reportAd": "Bu ilanı bildir",
+    "blockAdAlert": "Bu ilanı gizlemek istediğinizden emin misiniz? Gizlerseniz, bu ilan size bir daha gösterilmeyecek.",
+    "blockAdConfirmBtn": "Gizle",
+    "blockAdCancelBtn": "İptal",
+    "blockAdSuccessMessage": "İlan başarıyla gizlendi.",
+    "blockUserAlert": "Bu kullanıcıyı engellemek istediğinizden emin misiniz? Engellerseniz, bu kullanıcıdan hiçbir ilan göremezsiniz ve size mesaj gönderemez.",
+    "blockUserConfirmBtn": "Engelle",
+    "blockUserCancelBtn": "İptal",
+    "blockUserSuccessMessage": "Kullanıcı başarıyla engellendi.",
+    "bookingTitle": "Rezervasyon",
+    "booking_fee_label": "Rezervasyon Ücreti",
+    "instant_booking_label": "Anında Rezervasyon",
+    "booking_button_text": "Şimdi Rezervasyon Yap",
+    "available_ticket_label": "Mevcut Biletler",
+    "no_of_ticket": "Misafir Sayısı",
+    "no_of_guest": "Misafir Sayısı",
+    "rent_date_range": "Tarih",
+    "service_time_title": "Hizmet Zamanı",
+    "service_time_slot_title": "Hizmet Zamanı",
+    "select_time_slot": "Zaman Dilimi Seç",
+    "service_not_available": "Üzgünüz! Seçilen tarihte hizmet mevcut değil.",
+    "max_guest_label": "Maksimum Misafir Sayısı",
+    "min_guest_label": "Minimum Misafir Sayısı 1.",
+    "time_slot_required": "Lütfen bir zaman dilimi seçin",
+    "ticketUnavilable": "Üzgünüz! Tüm biletler tükendi. Lütfen daha sonra kontrol edin.",
+    "rentDateRangeMissing": "Lütfen uygun bir tarih aralığı seçin.",
+    "pre_order_available_volume": "Mevcut Hacim",
+    "pre_order_available_date": "Mevcut Tarih",
+    "pre_order_number_of_item": "Ürün Sayısı",
+    "okBtnTitle": "Tamam"
+  },
+
+  "hiddenListingsTexts": {
     "unBlockListingBtnTitle": "Gizliliği Kaldır",
     "unBlockAlert": "Bu ilanı gerçekten gizliliğini kaldırmak istiyor musunuz?",
     "okBtnTitle": "Onayla",
@@ -494,7 +494,7 @@
     "unBlockSuccessMessage": "İlan başarıyla gizlilikten kaldırıldı.",
     "listEmptyMessage": "Henüz gizlediğiniz bir ilan yok. Lütfen listeyi yenilemek için aşağıya çekin."
   },
-  
+
   "blockedUsersTexts": {
     "unBlockUserBtnTitle": "Engeli Kaldır",
     "unBlockAlert": "Bu kullanıcıyı gerçekten engelden kaldırmak istiyor musunuz?",
@@ -503,7 +503,7 @@
     "unBlockSuccessMessage": "Kullanıcı başarıyla engelden kaldırıldı.",
     "listEmptyMessage": "Henüz engellediğiniz bir kullanıcı yok. Lütfen listeyi yenilemek için aşağıya çekin."
   },
-  
+
   "loginScreenTexts": {
     "signUpPrompt": "Hesabınız yok mu?",
     "loginTitle": "Giriş Yap",
@@ -533,12 +533,12 @@
     "pleaseWaitText": "Lütfen Bekleyin!",
     "socialLoginText": "Veya Şu ile Giriş Yapın"
   },
-  
+
   "membershipsScreenTexts": {
     "makePayment": "Ödeme Yap",
     "checkOut": "Ödeme Sayfası"
   },
-  
+
   "oTPScreenText": {
     "phoneInputTitle": "Telefon Numarasını Girin",
     "oTPInputTitle": "OTP'yi Girin",
@@ -553,7 +553,7 @@
     "okBtnTitle": "Tamam",
     "signUpBtnTitle": "Kayıt Tamamla"
   },
-  
+
   "myListingsScreenTexts": {
     "loggedOut": "Giriş yapmadınız.",
     "deletePromptMessage": "Silmek istiyor musunuz?",
@@ -584,7 +584,7 @@
     "customServerErrorMessage": "Sunucudan veri alınırken hata oluştu.",
     "noInternet": "İnternet yok"
   },
-  
+
   "myMembershipScreenTexts": {
     "title": "Üyemiz Olun!",
     "membershipText": "Üyelik, işinize platformumuzda bir ses ve görünürlük kazandırır, daha fazla müşteriye ulaşmanızı sağlar, satışlarınızı artırır ve işinizi genişletir!",
@@ -617,7 +617,7 @@
     "validityUnit": "Gün",
     "subscriptionReportTitle": "Abonelik Raporu"
   },
-  
+
   "myProfileScreenTexts": {
     "customResponseError": "Sunucudan veri alınırken hata oluştu",
     "profileInfoLabels": {
@@ -636,7 +636,7 @@
     "addPhoneBtnTitle": "Telefon Numarası Ekle",
     "phoneVerifyAlert": "Profil bilgilerini güncellemeden önce telefon numaranızı doğrulamanız gerekmektedir."
   },
-  
+
   "myStoreTexts": {
     "banner": "Mağaza Afişi",
     "closed": "Kapalı",
@@ -714,7 +714,7 @@
     "maximum": "Maksimum ",
     "alwaysOpen": "Her Zaman Açık"
   },
-  
+
   "newListingScreenTexts": {
     "title": "İlan Formu",
     "selectType": "Bir Tür Seçin",
@@ -736,7 +736,7 @@
     "categoryRestriction": "Üzgünüz! Üyelik paketinize bu kategoride yeni ilan oluşturmak izin vermiyor.",
     "catagoryLoadError": "Kategoriler alınırken hata oluştu. Lütfen tekrar deneyin."
   },
-  
+
   "reportScreenTexts": {
     "serverResponse": {
       "success": "Rapor başarıyla gönderildi",
@@ -756,8 +756,8 @@
     },
     "sendReportButtonTitle": "Rapor Gönder"
   },
-  
-   "searchScreenTexts": {
+
+  "searchScreenTexts": {
     "noListingFoundMessage": "Üzgünüz! İlan bulunamadı.",
     "loadingFiltersMessage": "Filtreler yükleniyor",
     "radiusSearchTitle": "Mesafe Araması",
@@ -777,7 +777,7 @@
     "clearAllButtonTitle": "Hepsini Temizle",
     "applyFiltersButtonTitle": "Filtreleri Uygula"
   },
-  
+
   "selectCategoryScreenTexts": {
     "errorMessages": {
       "serverError": "Sunucu hatası",
@@ -788,7 +788,7 @@
     "selectSubCategory": "Alt Kategori Seçin",
     "allCategory": "Kategoriler"
   },
-  
+
   "selectLocationScreenTexts": {
     "errorMessages": {
       "serverError": "Sunucu hatası",
@@ -798,7 +798,7 @@
     "showAll": "Hepsini Göster",
     "nextLevelLocation": "Bir sonraki seviyedeki konumu seçin"
   },
-  
+
   "sendEmailScreenTexts": {
     "serverResponse": {
       "success": "E-posta başarıyla gönderildi",
@@ -824,7 +824,7 @@
       "validEmail": "Geçerli bir e-posta olmalıdır."
     }
   },
-  
+
   "signUpScreenTexts": {
     "title": "Kayıt Ol",
     "formFieldLabels": {
@@ -860,8 +860,8 @@
     "signInButtonTitle": "Giriş Yap",
     "signinMessage": "Zaten bir hesabınız var mı?"
   },
-  
-   "promoteScreenTexts": {
+
+  "promoteScreenTexts": {
     "membershipPromotions": "Üyelik Tanıtımları",
     "promotions": "Tanıtımlar",
     "remainingads": "Kalan İlanlar",
@@ -877,7 +877,7 @@
     "goBackButton": "Geri Dön",
     "checkOut": "Ödeme Yap"
   },
-  
+
   "paymentMethodScreen": {
     "selectedPackage": "Seçilen Paket",
     "promotionConfirmation": "Tanıtım yapıyorsunuz",
@@ -957,7 +957,7 @@
     "paymentFailed": "Ödeme başarısız!",
     "retry": "Tekrar Dene"
   },
-  
+
   "paymentsScreenTexts": {
     "unknownError": "Bilinmeyen bir hata oluştu! Lütfen tekrar deneyin.",
     "retryButton": "Tekrar Dene",
@@ -965,7 +965,7 @@
     "refreshButton": "Yenile",
     "emptyListMessage": "Üzgünüz! Herhangi bir ödeme geçmişiniz bulunmuyor."
   },
-  
+
   "paymentDetailScreen": {
     "errorNotice": "Ödeme verilerini alırken bir hata oluştu!",
     "originalErrorLabel": "Orijinal Hata :",
@@ -973,12 +973,12 @@
     "invoiceNo": "Fatura No:",
     "payNowBtnTitle": "Şimdi Öde"
   },
-  
+
   "paymentScreen": {
     "goBackBtnTitle": "Geri Dön"
   },
-  
-    "storeDetailsTexts": {
+
+  "storeDetailsTexts": {
     "title": "Mağaza Detayları",
     "nullText": "Sağlanmamış",
     "alwaysOpen": "Her Zaman Açık",
@@ -1004,7 +1004,7 @@
     "verified": "Doğrulanmış Satıcı",
     "loginToSee": "Bilgileri görmek için lütfen giriş yapın."
   },
-  
+
   "storeMoreDetailTexts": {
     "sectionTitles": {
       "openinigDateTime": "Açılış Tarihi ve Saati",
@@ -1022,7 +1022,7 @@
     "messageToStoreOwner": "Mesaj",
     "callPrompt": "Bu mağazayı aramak ister misiniz?"
   },
-  
+
   "myDocScreenTexts": {
     "titles": {
       "photoId": "Fotoğraf Kimliği",
@@ -1054,13 +1054,13 @@
       "change": "Dosyayı Değiştir"
     }
   },
-  
-    "datePickerTexts": {
-      "selectDate": "Select Date",
-      "selectTime": "Select Time",
-      "okButtonTitle": "OK"
-    },
-  
+
+  "datePickerTexts": {
+    "selectDate": "Select Date",
+    "selectTime": "Select Time",
+    "okButtonTitle": "OK"
+  },
+
   "dateRangePickerTexts": {
     "selectStartDate": "Başlangıç Tarihini Seç",
     "selectEndDate": "Bitiş Tarihini Seç",
@@ -1068,19 +1068,19 @@
     "selectEndTime": "Bitiş Saatini Seç",
     "okButtonTitle": "Tamam"
   },
-  
+
   "dynamicFilterListPickerTexts": {
     "selectText": "Bir seçenek seçin"
   },
-  
+
   "dynamicListPickerTexts": {
     "selectText": "Birini seçin"
   },
-  
+
   "favouritesItemTexts": {
     "viewsText": "Görünümler :"
   },
-  
+
   "imageInputTexts": {
     "cancelButtonTitle": "İptal",
     "ifImageLibraryPermissionDenied": "Resim kütüphanesine erişim iznini etkinleştirmeniz gerekiyor",
@@ -1093,16 +1093,16 @@
     "takePhoto": "Fotoğraf Çek",
     "fromGallery": "Galeriye"
   },
-  
+
   "imageInputListTexts": {
     "addPhotosButtonTitle": "Fotoğraflar Ekle",
     "addPhotoButtonTitle": "Fotoğraf Ekle"
   },
-  
+
   "listingCardTexts": {
     "soldOutBadgeMessage": "Tükendi"
   },
-  
+
   "listingFormTexts": {
     "imageRequired": "**Lütfen en az bir fotoğraf ekleyin.**",
     "maxImageWarning": "Maksimum sayıda fotoğraf eklendi",
@@ -1181,39 +1181,39 @@
     "dateRangeCloseButton": "Kapat",
     "dateRangeApplyButton": "Tamam"
   },
-  
+
   "myAdsListItemTexts": {
     "viewsText": "Görünümler : ",
     "soldOut": "Tükendi"
   },
-  
+
   "OHTimePickerTexts": {
     "okButtonTitle": "Tamam"
   },
-  
+
   "screenTexts": {
     "noInternetText": "Bağlantı Hatası! Lütfen internet bağlantınızı kontrol edin."
   },
-  
+
   "sellerContactTexts": {
     "call": "Ara",
     "email": "E-posta",
     "chat": "Sohbet"
   },
-  
+
   "similarAdListItemTexts": {
     "viewsText": "Görünümler : "
   },
-  
+
   "membershipCardTexts": {
     "ads": "İlanlar",
     "validityUnit": "Gün",
     "regular": "Normal"
   },
-  
+
   "callForPrice": "Fiyat İçin Ara",
-  
-   "options_user": [
+
+  "options_user": [
     {
       "title": "İlanlarım",
       "id": "my_listings"
@@ -1263,7 +1263,7 @@
       "id": "admin_note"
     }
   ],
-  
+
   "options_drawer": [
     {
       "title": "Tüm Mağazalar",
@@ -1302,97 +1302,72 @@
       "id": "share"
     }
   ],
-  
+
   "appDescription": {
     "paras": [
       {
         "paraTitle": "",
-        "paraDetail": "Classima uygulaması, Classima – Classified ads WordPress Theme için demo Android uygulamasıdır. Bu uygulamayı kullanarak ülkenizdeki en inanılmaz ilan pazarına erişebilirsiniz; burada birçok farklı ürünü satın alabilir, arayabilir ve satabilirsiniz. Classima, satın alabileceğiniz veya satabileceğiniz ürünler konusunda bir sınır koymaz. Moto sikletler, araçlar, elektronik eşyalar ve çok daha fazlasını satabilirsiniz. Ayrıca, bir mülk satışı, satın alımı veya kiralamayı veya ülke içinde veya yurtdışında bir iş ilanı yayınlamayı arıyorsanız, Classima'da hepsini bulabilirsiniz.\n\nŞu kategorilerde ilanları keşfedin:",
-        "paraType": "para"
-      },
-      {
-        "paraTitle": "Elektronik",
-        "paraDetail": [
-          "Kamera, televizyon, tablet, telefon, dizüstü bilgisayar, video oyunları, aydınlatma ekipmanları, ses sistemleri, oyun konsolları gibi yeni ve kullanılmış elektronik eşyaları satabilir ve satın alabilirsiniz.",
-          "Benzer ürünlerin fiyatlarını karşılaştırabilir ve telefon kılıfları ve adaptörler gibi aksesuarları bulabilirsiniz."
-        ],
-        "paraType": "bullets"
-      },
-      {
-        "paraTitle": "Araçlar ve Moto Sikletler",
-        "paraDetail": [
-          "Yeni ve kullanılmış otobüs, minibüs, skuter, motosiklet, tekne ve ağır hizmet araçlarını satabilir ve satın alabilirsiniz.",
-          "Classima, Honda, Hyundai, Mitsubishi, Toyota, Mazda, Nissan ve Kia gibi tüm araç markalarının fiyatlarını karşılaştırmanıza olanak tanır.",
-          "Aradığınız ilanlara ulaşmak kolaydır çünkü aramanızı fiyat aralığı, kilometre, model yılı, marka, durum vb. ile filtreleyebilirsiniz.",
-          "Araçlarınız için yedek parça ve aksesuarları da satın alabilirsiniz."
-        ],
-        "paraType": "bullets"
-      },
-      {
-        "paraTitle": "Mülk",
-        "paraDetail": [
-          "Classima, mülk satışı, alımı ve kiralamasını kolaylaştırır.",
-          "Arazi, ticari mülk, ev, daire ve apartman arayabilir ve aramanızı konum, fiyat, durum vb. ile filtreleyebilirsiniz.",
-          "Benzer mülk ilanlarının fiyatlarını kolayca karşılaştırabilirsiniz."
-        ],
-        "paraType": "bullets"
-      },
-      {
-        "paraTitle": "Classima ile şunları yapabilirsiniz:",
-        "paraDetail": "Classima – kullanımı kolay bir mobil uygulama ile binlerce yerel ilanı gözden geçirebilirsiniz. Aramanızı ilan konumu, kategori ve anahtar kelimelerle yaparak tam olarak istediğinizi bulabilirsiniz. Alıcılar, satıcılarla iletişime geçebilir ve ilanları satın almak için anlaşmalar yapabilirler. Alıcılar, satın almak istedikleri ilanları daha sonra görüntülemek üzere kaydedebilirler.\n\nİlanlarınızı Bump Up ve Top Ads ile teşvik ederek daha hızlı satılmasını sağlayabilirsiniz. İstediğiniz tüm kategorileri Classima içinde bulabilirsiniz. İlanları ve yönetimi telefonunuzdan kolayca yapabilirsiniz. Classima çok az veri tüketir.\n\nÜcretsiz uygulamayı hemen indirip pazar yerini avucunuzun içinde bulabilirsiniz.\n\nHoş geldiniz!",
-        "paraType": "para"
+        "paraDetail": " Motosiklet tutkunlarının bir araya geldiği, tamamen motorculara özel olarak tasarlanmış Türkiye’nin ilk ve tek platformudur. Bizler, motosiklet sürücülerinin sahip olduğu özgürlüğü, kardeşliği ve tutkuyu esas alarak, bu ruhu dijital dünyaya taşıdık. Her zaman motorcuların birlik ve beraberliğinden esinlenerek, onların ihtiyaçlarına özel çözümler sunmak için buradayız. \n \n Motosiklet dünyasına dair her şeyi bir araya getiriyoruz.\nİster sıfır ister ikinci el motosiklet arayışında olun, ister motorunuz için yedek parça veya aksesuar arayın; burada aradığınız her şeyi bulabilirsiniz.  \n \n Platformumuzda, güvenilir motor bayilerinden kişisel ilanlara, kiralık motosikletlerden hobi araçlarına kadar geniş bir yelpazede hizmet sunuyoruz. Tamamen motosiklet tutkunlarına adanmış olan bu platformda, sadece bir araç değil, bir yaşam biçimi olan motosikletleriniz için en iyi çözümleri sunuyoruz.",
+        "paraType": "para",
+        "id": 1
       }
     ],
     "link": "https://preview.themeforest.net/item/classima-classified-ads-wordpress-theme/full_screen_preview/24494997",
     "linkedPara": [
-      "Classima hakkında merak mı ediyorsunuz? ",
-      "Classima Pro eklentisinin",
-      "Classima – Classified ads WordPress Theme özelliklerine göz atın."
+      ""
     ]
   },
-  
-   "drawerScreenTexts": {
-    "copyrightText": "2022© Tüm hakları saklıdır.",
-    "linkText": "RadiusTheme"
+
+  "drawerScreenTexts": {
+    "copyrightText": "2024© Tüm hakları saklıdır.",
+    "linkText": "Hakkımızda"
   },
-  
+
   "frequentlyAskedQuestions": [
     {
-      "question": "İlan nasıl yayınlarım?",
-      "answer": "İlanınızı kolayca yayınlayabilirsiniz; artı (+) simgesine dokunun, ardından giriş yapın ve ilanınızı uygun bilgilerle gönderin. İlanınızı gönderdikten sonra bir bildirim alacaksınız."
+      "question": "1. Motoruum.com'a nasıl üye olabilirim?",
+      "answer": "Motoruum'a üye olmak için ana sayfanın sağ üst köşesindeki \"Kişi\" simgesine tıklayıp gerekli bilgileri doldurarak hesabınızı oluşturabilirsiniz. Üyelik sırasında e-posta doğrulaması gerekmektedir."
     },
     {
-      "question": "İlanlarımı nasıl düzenler/silerim?",
-      "answer": "Basitçe giriş yapın ve Hesap => ilanlarım bölümüne gidin. İlanlarınızın bir listesi görünecek. Her ilanın bir silme seçeneği bulunmaktadır."
+      "question": "2. Nasıl ilan verebilirim?",
+      "answer": "İlan vermek için hesabınıza giriş yaptıktan sonra \"İlan Ver\" butonuna tıklayın. Araç bilgilerinizi ve fotoğraflarınızı girerek ilanınızı oluşturabilirsiniz. İlanınızı tamamladıktan sonra onaylanması için sistemimize gönderilecektir."
     },
     {
-      "question": "İlanımı nasıl düzenlerim?",
-      "answer": "Basitçe giriş yapın ve Hesap => ilanlarım bölümüne gidin. İlanlarınızın bir listesi görünecek. Her ilanın bir düzenleme seçeneği bulunmaktadır."
+      "question": "3. İlanlar ne kadar süre yayında kalır?",
+      "answer": "İlanlar, standart olarak 30 gün boyunca yayında kalır. Ancak, ilan süresi dolduğunda isterseniz ilanınızı güncelleyebilir veya yeniden yayınlayabilirsiniz."
     },
     {
-      "question": "İlanlarım ne kadar süre aktif kalacak?",
-      "answer": "Bu, ayarlarınıza bağlıdır; ilanlarınızın ne kadar süre aktif kalacağı bu ayarlara bağlı olarak değişecektir."
+      "question": "4. İlanım onaylanmazsa ne yapmalıyım?",
+      "answer": "İlanınız onaylanmadığında size e-posta yoluyla bilgilendirme yapılacaktır. İlanınızın reddedilme sebeplerini e-posta üzerinden görebilir ve gerekli düzenlemeleri yaptıktan sonra yeniden gönderebilirsiniz."
     },
     {
-      "question": "Kaç tane ücretsiz ilan verebilirim?",
-      "answer": "Bu, web sitesindeki ayarlarınıza bağlıdır; satıcılara belirli bir süre için belirli sayıda ücretsiz ilan verilecektir."
+      "question": "5. İlan verirken ücret ödüyor muyum?",
+      "answer": "Motoruum.com'da yüklemeleri tamamen ücretsizdir. Ancak, öne çıkarma, acil ilan veya vitrin ilan gibi özellikleri kullanmak isterseniz belirli ücretler ödemeniz gerekebilir.\nHesabım->İlanlarım->İlanı Düzenle->Öne çıkar"
     },
     {
-      "question": "Hesap bilgilerini nasıl düzenlerim?",
-      "answer": "Giriş yapın, ardından hesap bölümüne gidin. Hesap bilgilerinizi düzenleme seçeneğini bulacaksınız."
+      "question": "6. İlanımı nasıl daha hızlı satabilirim?",
+      "answer": "İlanınızı daha görünür kılmak için \"Acil İlan\" veya \"Vitrin İlan\" gibi seçenekleri tercih edebilirsiniz. Bu özelliklere ilanınızın düzenleme sayfasından erişebilirsiniz.\n\nHesabım->İlanlarım->İlanı Düzenle->Öne çıkar"
     },
     {
-      "question": "Birisiyle nasıl sohbet başlatırım?",
-      "answer": "Bir ilanın detayına gidin; e-posta, telefon ve sohbet seçeneğini göreceksiniz. Sohbet simgesine dokunarak konuşmanıza başlayabilirsiniz."
+      "question": "7. İlanımı nasıl güncelleyebilirim?",
+      "answer": "İlanınızı güncellemek için hesabınıza giriş yapın ve \"İlanlarım\" bölümüne gidin. Güncellemek istediğiniz ilanı seçip, gerekli düzenlemeleri yaptıktan sonra kaydedebilirsiniz.\n\nHesabım->İlanlarım->İlanı Düzenle->Düzenle"
     },
     {
-      "question": "Satıcı olarak sohbet bildirimleri alacak mıyım?",
-      "answer": "Evet. Sohbet isteği veya e-posta için, satıcı bir e-posta bildirimi alacaktır. Sohbet için, alıcı ilk mesajı e-posta bildirimi olarak alacaktır."
+      "question": "8. Güvenli alışveriş için nelere dikkat etmeliyim?",
+      "answer": "Güvenli alışveriş için satıcıyla yüz yüze görüşmeyi tercih edin ve motoru görmeden ödeme yapmamaya özen gösterin. Platformumuz üzerinden yapılan ödemelerde güvenli ödeme seçeneklerini tercih edebilirsiniz."
+    },
+    {
+      "question": "9. Motoruum üzerinden iletişim nasıl sağlanır?",
+      "answer": "Alıcılar ve satıcılar, platform üzerinde mesajlaşma sistemi ile iletişim kurabilirler. Ayrıca satıcılar, ilan detay sayfasında yer alan telefon numarası aracılığıyla da ulaşılabilir."
+    },
+    {
+      "question": "10. İlanımda telefon numaram görünsün/görünmesin istiyorum. Ne yapmalıyım?",
+      "answer": "Hesabım sayfasında bulunan \"Hesap Ayrıntıları\" adlı sekmeye gidip, telefon ve whatsapp numaranızı güncelleyebilir veya ilan yükleme aşamasında iletişim bilginizi güncelleyebilirsiniz."
     }
   ],
-  
-  
-    "sellFastTips": [
+
+
+  "sellFastTips": [
     {
       "id": 1,
       "title": "Doğru fiyatı belirleyin",
@@ -1409,7 +1384,7 @@
       "detail": "Ürünlerinizin açık ve detaylı bir açıklamasını yapın. Ürünleriniz hakkında doğru bilgileri eklediğinizden emin olun."
     }
   ],
-  
+
   "moreOptions": [
     {
       "title": "Bize Ulaşın",
@@ -1432,7 +1407,7 @@
       "id": "pp"
     }
   ],
-  
+
   "privacyPolicy": {
     "paras": [
       {
@@ -1509,173 +1484,149 @@
     "link": "",
     "linkedPara": []
   },
-  
-   "termsAndConditions": [
+
+  "termsAndConditions": [
     {
-      "paraTitle": "",
-      "paraData": "Classima, radiustheme.com tarafından oluşturulan ve sağlanan bir mobil uygulama hizmetidir. Bu uygulamayı kullanmadan önce aşağıda belirtilen Şartlar ve Koşullar'ı kabul etmeniz gerekmektedir. Lütfen bu Şartlar ve Koşullar'ı dikkatlice okuyun."
+      "paraTitle": "Motoruum.com Kullanım Koşulları",
+      "paraData": "Bu Kullanım Koşulları Sözleşmesi (“Sözleşme”), motoruum.com’a  erişim sağlayan ve platformu kullanan tüm kullanıcılar (“Kullanıcılar ve Kurumsal Üyeler”) için bağlayıcı kuralları ve şartları belirler. Platformu kullanan her birey, bu koşulları kabul etmiş sayılır. Platforma üye olan veya herhangi bir şekilde erişim sağlayan kullanıcılar, bu koşullara bağlı kalmayı peşinen kabul ederler."
     },
     {
-      "paraTitle": "Genel",
-      "paraData": "Tüm reklam verenler ve diğer kullanıcılar, platforma yüklenen tüm içeriğin (resim, video, grafik ve metin içeriği) ilgili yasalarla uyumlu olmasını sağlamakla sorumludur. Classima ve radiustheme.com, yüklenen içeriğin doğruluğu veya yasallığı konusunda herhangi bir sorumluluk kabul etmez.\n\nReklam verenler ve tüm kullanıcılar, içeriklerinin herhangi bir telif hakkı, fikri mülkiyet hakkı veya herhangi bir kuruluş veya kişinin diğer haklarını ihlal etmediğini garanti ederler. Kullanıcı veya reklam veren, Classima ve radiustheme.com'u hizmetin kullanımından veya kullanılamamasından kaynaklanan tüm yükümlülüklerden, taleplerden ve sorumluluklardan muaf tutmayı kabul eder.\n\nReklam verenler, içeriklerinin Classima ve radiustheme.com'un ortak sitelerinde aynı şartlar ve koşullarla sunulmasını kabul ederler."
+      "paraTitle": "Hizmet Tanımı",
+      "paraData": "Motoruum.com, sıfır ve ikinci el motosiklet alım satım, yedek parça, aksesuar satışı, sürücü kursları, teknik servisler ve ilgili hizmetlerin listelendiği bir dijital pazar platformudur. Kullanıcılar bu platform üzerinde ilan yayınlayabilir, diğer kullanıcılar ile iletişim kurabilir ve çeşitli ticari işlemler gerçekleştirebilir."
     },
     {
-      "paraTitle": "Telif Hakkı",
-      "paraData": "Reklam verenler, Classima ve radiustheme.com'a içeriklerini kullanma, değiştirme, çoğaltma, yayınlama, uyarlama, çeviri yapma, türev çalışmalar oluşturma ve bu içeriği mevcut veya gelecekteki herhangi bir form, teknoloji veya ortamda dağıtma veya dahil etme konusunda süreli, geri alınamaz, telifsiz ve münhasır olmayan bir lisans ve hak verirler.\n\nClassima üzerindeki materyaller (içerik, yazılım veya hizmetler dahil) radiustheme.com, iştirakleri, bağlı kuruluşları ve/veya üçüncü taraf lisans sahiplerinin mülkiyetindedir. Classima üzerindeki tüm fikri mülkiyet hakları, telif hakları, hizmet markaları, ticari markalar, ticaret adları ve diğer ayırt edici markalar RadiusTheme'in mülkiyetindedir.\n\nClassima veya radiustheme.com üzerinde bulunan hiçbir materyal, RadiusTheme'den yazılı izin alınmadan kopyalanamaz, yeniden yayınlanamaz, çoğaltılamaz, yüklenemez, iletilemez, gönderilemez, depolanamaz veya dağıtılamaz."
+      "paraTitle": "Platform Yükümlülükleri ve Sorumluluk Reddi",
+      "paraData": "Motoruum.com, aşağıdaki hallerde herhangi bir sorumluluk kabul etmez:\nAlışveriş ve Ticari İşlemler: Kullanıcılar arasında yapılan alışverişlerde dolandırıcılık, yanlış bilgi verme, mal tesliminde sorunlar gibi ticari sorunlarda motoruum.com sorumlu tutulamaz. Kullanıcılar arasındaki anlaşmazlıklar kendi aralarında çözülmelidir.\nVeri Kaybı ve Erişim Kesintileri: Platform üzerinden yapılan veri aktarımlarında (ilanlar, mesajlar, içerik vb.) olası kayıplar, teknik arızalar veya erişim kesintileri konusunda motoruum.com herhangi bir sorumluluk kabul etmez.\nİlan İçerikleri: Kullanıcılar tarafından paylaşılan ilanların doğruluğundan motoruum.com sorumlu değildir. Platform yalnızca ilanların yayınlanmasını sağlar, içeriğin doğruluğu kullanıcının sorumluluğundadır.\nÜçüncü Taraf Bağlantılar: Platform üzerinde verilen bağlantılar veya yönlendirmeler, motoruum.com’un kontrolü dışında olabilir. Bu bağlantılardan doğacak güvenlik sorunlarından motoruum.com sorumlu değildir."
     },
     {
-      "paraTitle": "Filigranlar",
-      "paraData": "Classima üzerindeki tüm resimler, reklam verenlerin izni olmadan başka amaçlar için yeniden kullanılmalarını engellemek için filigranlanmıştır."
+      "paraTitle": "Üyelik ve Hesap Kullanımı",
+      "paraData": "Platforma üye olan kullanıcılar, üye oldukları sırada belirttikleri bilgilerin doğruluğundan sorumludur. Herhangi bir sahte hesap açma, sahte kimlik bilgisi kullanma veya başka bir kullanıcının hesabını izinsiz kullanma durumunda, motoruum.com kullanıcı hesabını sonlandırma hakkına sahiptir.\nKullanıcı, hesabını başkalarına devredemez veya ticari amaçla satamaz.\nPlatform, gerekli gördüğü hallerde üyelik başvurusunu reddetme veya mevcut bir üyeliği sonlandırma hakkına sahiptir."
     },
     {
-      "paraTitle": "Güvenlik ve Resimler",
-      "paraData": "Classima ve radiustheme.com, uygulamadaki herhangi bir içeriğin başlığını editoryal amaçlarla değiştirme hakkını saklı tutar. Classima ve radiustheme.com, uygun olmayan veya RadiusTheme'in kurallarını ihlal eden resimleri yayınlamayı reddetme hakkını saklı tutar."
+      "paraTitle": "İlan Verme Koşulları",
+      "paraData": "Kullanıcılar, motoruum.com’da ilan verirken aşağıdaki koşulları kabul eder:\nİlan içerikleri doğru ve gerçeği yansıtmalıdır. Yanıltıcı, eksik veya yanlış bilgi paylaşımı yasaktır.\nİlan içerikleri yürürlükteki yasalarla uyumlu olmalıdır. Yasadışı ürünler veya hizmetler ilan edilemez.\nMotoruum.com, platformda yayınlanan ilanların içeriğini denetleme ve gerektiğinde yayından kaldırma hakkına sahiptir.\nİlanlar, motoruum.com’un genel ahlak ve toplumsal değerlerine uygun olmalıdır."
     },
     {
-      "paraTitle": "Kişisel",
-      "paraData": "Classima ve RadiusTheme, uygulamada herhangi bir içeriğin yasayı ihlal etmesi durumunda yetkililerle işbirliği yapma hakkını saklı tutar. Kullanıcıların, alıcıların veya reklam verenlerin kimlikleri örneğin bir ISP aracılığıyla tespit edilebilir. IP adresleri, tüm kullanıcıların, alıcıların ve reklam verenlerin şartlar ve koşullara uyup uymadığını sağlamak için kaydedilebilir."
+      "paraTitle": "Ödeme ve Üyelik Planları",
+      "paraData": "Motoruum.com, kullanıcılarına çeşitli üyelik planları ve ilan öne çıkarma seçenekleri sunabilir. Kullanıcılar, bu hizmetlerden faydalandığında ilgili ücretlendirme tarifesi ve ödeme koşullarına uymak zorundadır. Platform, ödemeleri zamanında yapmayan kullanıcıların hesaplarını askıya alma veya hizmetleri sonlandırma hakkına sahiptir."
     },
     {
-      "paraTitle": "Gizlilik",
-      "paraData": "Classima ve RadiusTheme, kullanıcılar, alıcılar ve reklam verenlerden bilgi toplayacaktır. Classima'yı kullanmanın bir koşulu olarak, her kullanıcı ve reklam veren, Classima ve radiustheme.com'un bu bilgileri toplamasına ve kullanmasına izin verir ve onaylar. Classima ve radiustheme.com ayrıca, bu bilgileri Classima'yı desteklemek, yönetmek ve sürdürmek, ayrıca Classima'yı geliştirmek, örneğin pazarlama, araştırma, planlama ve ürün geliştirme amacıyla kullanma hakkını saklı tutar."
+      "paraTitle": "Fikri Mülkiyet ve Telif Hakları",
+      "paraData": "Motoruum.com’a ait olan tüm yazılım, tasarım, logo, içerik ve diğer unsurlar, fikri mülkiyet ve telif haklarıyla korunmaktadır. Kullanıcılar, bu içerikleri izinsiz kopyalayamaz, dağıtamaz veya ticari amaçla kullanamaz."
     },
     {
-      "paraTitle": "Çerezler",
-      "paraData": "Bu uygulama çerezler kullanabilir, bu nedenle cihazınızın çerezlere izin vermiş olması gerekir. Bir çerez dosyası, bir ziyaretçiye rastgele bir kullanıcı kimliği gibi bilgiler içerir ve site bu bilgileri ziyaretçinin hangi sayfaları ziyaret ettiğini izlemek için otomatik olarak atar. Çerezler, sabit diskinizden veya diğer sitelerden çerez dosyalarını okuyamaz. Çerezler, kullanıcı kimliğini belirlemek için tek başına kullanılamaz."
+      "paraTitle": "Gizlilik Politikası ve Çerezler",
+      "paraData": "Motoruum.com, kullanıcıların kişisel verilerini KVKK’ya uygun olarak korur. Platformun Gizlilik Politikası’na ve Çerez Politikası’na bu sözleşme kapsamında yer verilmiştir. Kullanıcılar, motoruum.com’a kayıt olarak bu politikaları kabul etmiş sayılır."
     },
     {
-      "paraTitle": "Kullanıcıların E-posta Adresi",
-      "paraData": "Kullanıcıların reklam ilanları gönderebilmeleri için geçerli e-posta adresleri sunmaları gerekmektedir. E-posta adresleri halka açık olarak görüntülenmeyecektir. Ancak, kullanıcılar Classima aracılığıyla diğer kullanıcılara e-posta gönderebilirler."
+      "paraTitle": "Kullanım Koşullarında Değişiklikler",
+      "paraData": "Motoruum.com, kullanım koşullarını önceden bildirimde bulunmaksızın değiştirme hakkına sahiptir. Kullanım koşullarında yapılacak değişiklikler, kullanıcıların platformu kullanmaya devam etmesi halinde kabul edilmiş sayılır."
     },
     {
-      "paraTitle": "Site Erişilebilirliği",
-      "paraData": "Classima ve radiustheme.com, uygulamaya kesintisiz veya güvenli erişim garantisi vermez. Uygulama 'olduğu gibi' ve mevcut olduğu şekilde sağlanmaktadır."
+      "paraTitle": "Uyuşmazlık Çözümü",
+      "paraData": "Bu Sözleşme’den doğan her türlü uyuşmazlık, Türkiye Cumhuriyeti kanunlarına tabidir. Taraflar arasında doğabilecek herhangi bir anlaşmazlık, İstanbul Mahkemeleri ve İcra Daireleri tarafından çözülecektir."
     },
     {
-      "paraTitle": "Üçüncü Taraf Web Sitelerine Bağlantılar",
-      "paraData": "Classima, diğer sitelere (Üçüncü Taraf Web Siteleri) referanslar ve bağlantılar içerebilir. Ancak, Classima veya radiustheme.com bu üçüncü taraf web sitelerinin içeriğinden sorumlu değildir. Üçüncü taraf web siteleri Classima veya radiustheme.com tarafından izlenmez veya araştırılmaz. Bir kullanıcı Classima'dan ayrıldığında ve üçüncü taraf bir web sitesine eriştiğinde, bunu kendi riskiyle yapar."
-    },
-    {
-      "paraTitle": "Ücretli İçerik ve Hizmet",
-      "paraData": "Classima'nın bazı hizmetleri ve içerikleri ödeme gerektirebilir, buna üyelik paketleri ve belirli kategorilerde reklamların yayınlanması dahildir.\n\nKullanıcılar, Classima tarafından satılan veya verilen kuponları kullanarak reklam promosyonları satın alabilirler. Kuponlar nakit olarak kullanılmaz.\n\nReklam verenler ve diğer kullanıcılar, ödenmiş içeriklerinin bilgilerini bir üçüncü taraf sağlayıcı aracılığıyla iletmek zorunda kalabilirler, bu üçüncü taraf sağlayıcı kendi şartlar ve koşullarıyla yönetilmektedir. Bu kullanıcılar ve reklam verenler bu bağlantıları kendi riskleriyle kabul eder ve Classima, bu konuda tüm sorumlulukları reddeder. Classima, ödenmiş içeriklerle ilgili yapılan ödemeleri herhangi bir durumda geri ödemekle yükümlü değildir."
-    },
-    {
-      "paraTitle": "Üyelikler",
-      "paraData": "Classima, kullanıcı adına bir mağaza oluşturacaktır. Oluşturulan mağaza içeriğe sahip olmayacak, kullanıcı tarafından eklenmesi beklenmektedir. Classima, mağazaya eklenen herhangi bir içeriğe sahip olma hakkını saklı tutar ve uygun görmediği veya şartlar ve koşulları ihlal eden içeriği kaldırma veya yayınlamayı reddetme hakkına sahiptir.\n\nClassima, üyelik paketlerini, fiyatlarını ve içeriklerini değiştirme veya düzenleme hakkını saklı tutar.\n\nClassima, bir üyelik paketi erken iptal edildiğinde, herhangi bir nedenle, hizmetleri veya parayı geri ödemekle yükümlü değildir."
-    },
-    {
-      "paraTitle": "Sorumluluk Reddi",
-      "paraData": "Classima ve radiustheme.com, Classima'nın kullanımından dolayı hiçbir sorumluluk kabul etmez ve Classima veya İçerik ile ilgili herhangi bir hata (yazım hataları ve teknik hatalar dahil), üçüncü taraf web siteleri veya Classima'daki bağlantılar aracılığıyla erişilen içerik, Classima'nın kullanılamaması, Classima'nın veya İçeriğin kullanımı veya herhangi bir ekipmanın (veya yazılımın) kullanımı ile ilgili herhangi bir talep, zarar, hasar veya sorumluluk konusunda tüm sorumluluğu reddeder."
-    },
-    {
-      "paraTitle": "Tazminat",
-      "paraData": "Reklam verenler ve diğer kullanıcılar, Classima ve RadiusTheme'i ve çalışanlarını, ajanlarını, yetkililerini, yöneticilerini, tüm masraflar, kayıplar, zararlar ve maliyetler, avukatlık ücretleri dahil, bu Şartlar ve Koşulların herhangi bir ihlalinden (ihmal veya yanlış davranış dahil) dolayı tazmin etmeyi kabul ederler."
-    },
-    {
-      "paraTitle": "Değişiklikler",
-      "paraData": "Classima ve RadiusTheme, bu Şartlar ve Koşulları değiştirme veya düzenleme hakkını saklı tutar. Bu değişiklikler, Classima'da yayınlandığı anda geçerli olacaktır. Bu değişiklikleri düzenli olarak gözden geçirmek sizin sorumluluğunuzdadır. Classima'ya erişiminiz veya kullanmanız, değiştirilmiş şartları ve koşulları kabul ettiğiniz anlamına gelir."
-    },
-    {
-      "paraTitle": "Geçerli Hukuk",
-      "paraData": "Classima, ilgili ülkenin yasalarına ve düzenlemelerine tabidir."
+      "paraTitle": "Yürürlük",
+      "paraData": "Kullanım koşulları, motoruum.com platformunda yayınlandığı tarihten itibaren yürürlüğe girer."
     }
   ],
-  
-   
-    "relativeTime": {
-      "future": "%s içinde",
-      "past": "%s önce",
-      "s": "birkaç saniye",
-      "m": "bir dakika",
-      "mm": "%d dakika",
-      "h": "bir saat",
-      "hh": "%d saat",
-      "d": "bir gün",
-      "dd": "%d gün",
-      "M": "bir ay",
-      "MM": "%d ay",
-      "y": "bir yıl",
-      "yy": "%d yıl"
+
+
+  "relativeTime": {
+    "future": "%s içinde",
+    "past": "%s önce",
+    "s": "birkaç saniye",
+    "m": "bir dakika",
+    "mm": "%d dakika",
+    "h": "bir saat",
+    "hh": "%d saat",
+    "d": "bir gün",
+    "dd": "%d gün",
+    "M": "bir ay",
+    "MM": "%d ay",
+    "y": "bir yıl",
+    "yy": "%d yıl"
+  },
+  "promotions": {
+    "_bump_up": "Öne Çıkar",
+    "_top": "Üst",
+    "featured": "Öne Çıkan"
+  },
+  "listingStatus": {
+    "draft": "Taslak",
+    "rtcl-reviewed": "Gözden Geçirildi",
+    "rtcl-expired": "Süresi Dolmuş",
+    "publish": "Yayınlandı",
+    "pending": "Beklemede"
+  },
+  "fixedPriceLabel": "Sabit",
+  "negotiablePriceLabel": "Pazarlığa Açık",
+  "adminFeaturesScreenTexts": {
+    "allAds": "Tüm İlanlar",
+    "allPayments": "Tüm Ödemeler"
+  },
+  "allListingsSCreenTexts": {
+    "searchPlaceholder": "Ara...",
+    "noListingAvailable": "İlan Bulunamadı.",
+    "refreshBtnText": "Yenile",
+    "all": "Tümü",
+    "deletePromptMessage": "Silmek istiyor musunuz",
+    "editPromptMessage": "Düzenlemek istiyor musunuz",
+    "cancelButtonTitle": "İptal",
+    "okayButtonTitle": "Tamam",
+    "deleteButtonTitle": "Sil",
+    "editButtonTitle": "Düzenle",
+    "noAdTitle": "Şu anda herhangi bir ilanınız yok!",
+    "listingDeleteSuccessText": "Başarıyla silindi",
+    "listingStatusUpdateText": "Başarıyla güncellendi",
+    "listingDeleteErrorText": "Hata! Lütfen tekrar deneyin",
+    "actionMenuButtons": {
+      "statusChange": "Durumu Değiştir",
+      "edit": "Düzenle",
+      "delete": "Sil"
     },
-    "promotions": {
-      "_bump_up": "Öne Çıkar",
-      "_top": "Üst",
-      "featured": "Öne Çıkan"
-    },
-    "listingStatus": {
+    "statusChangeTitle": "İlan durumunu seçin",
+    "statusMenuButtons": {
       "draft": "Taslak",
-      "rtcl-reviewed": "Gözden Geçirildi",
+      "pending": "Beklemede",
       "rtcl-expired": "Süresi Dolmuş",
       "publish": "Yayınlandı",
-      "pending": "Beklemede"
+      "rtcl-reviewed": "Gözden Geçirildi"
     },
-    "fixedPriceLabel": "Sabit",
-    "negotiablePriceLabel": "Pazarlığa Açık",
-    "adminFeaturesScreenTexts": {
-      "allAds": "Tüm İlanlar",
-      "allPayments": "Tüm Ödemeler"
+    "statusUpdateBtn": "Durumu Güncelle",
+    "customServerErrorMessage": "Sunucudan veri alınırken hata oluştu.",
+    "noInternet": "İnternet Yok"
+  },
+  "allPaymentsSCreenTexts": {
+    "searchPlaceholder": "Ara...",
+    "noPaymentsAvailable": "Ödeme Geçmişi Bulunamadı.",
+    "refreshBtnText": "Yenile",
+    "all": "Tümü",
+    "cancelButtonTitle": "İptal",
+    "okayButtonTitle": "Tamam",
+    "paymentStatusUpdateText": "Başarıyla güncellendi",
+    "paymentDeleteErrorText": "Hata! Lütfen tekrar deneyin",
+    "actionMenuButtons": {
+      "statusChange": "Durumu Değiştir"
     },
-    "allListingsSCreenTexts": {
-      "searchPlaceholder": "Ara...",
-      "noListingAvailable": "İlan Bulunamadı.",
-      "refreshBtnText": "Yenile",
-      "all": "Tümü",
-      "deletePromptMessage": "Silmek istiyor musunuz",
-      "editPromptMessage": "Düzenlemek istiyor musunuz",
-      "cancelButtonTitle": "İptal",
-      "okayButtonTitle": "Tamam",
-      "deleteButtonTitle": "Sil",
-      "editButtonTitle": "Düzenle",
-      "noAdTitle": "Şu anda herhangi bir ilanınız yok!",
-      "listingDeleteSuccessText": "Başarıyla silindi",
-      "listingStatusUpdateText": "Başarıyla güncellendi",
-      "listingDeleteErrorText": "Hata! Lütfen tekrar deneyin",
-      "actionMenuButtons": {
-        "statusChange": "Durumu Değiştir",
-        "edit": "Düzenle",
-        "delete": "Sil"
-      },
-      "statusChangeTitle": "İlan durumunu seçin",
-      "statusMenuButtons": {
-        "draft": "Taslak",
-        "pending": "Beklemede",
-        "rtcl-expired": "Süresi Dolmuş",
-        "publish": "Yayınlandı",
-        "rtcl-reviewed": "Gözden Geçirildi"
-      },
-      "statusUpdateBtn": "Durumu Güncelle",
-      "customServerErrorMessage": "Sunucudan veri alınırken hata oluştu.",
-      "noInternet": "İnternet Yok"
+    "statusChangeTitle": "Ödeme durumunu seçin",
+    "statusMenuButtons": {
+      "rtcl-pending": "Beklemede",
+      "rtcl-on-hold": "Beklemede",
+      "rtcl-completed": "Tamamlandı",
+      "rtcl-cancelled": "İptal Edildi",
+      "rtcl-refunded": "İade Edildi",
+      "rtcl-failed": "Başarısız",
+      "rtcl-created": "Oluşturuldu",
+      "rtcl-processing": "İşleniyor"
     },
-    "allPaymentsSCreenTexts": {
-      "searchPlaceholder": "Ara...",
-      "noPaymentsAvailable": "Ödeme Geçmişi Bulunamadı.",
-      "refreshBtnText": "Yenile",
-      "all": "Tümü",
-      "cancelButtonTitle": "İptal",
-      "okayButtonTitle": "Tamam",
-      "paymentStatusUpdateText": "Başarıyla güncellendi",
-      "paymentDeleteErrorText": "Hata! Lütfen tekrar deneyin",
-      "actionMenuButtons": {
-        "statusChange": "Durumu Değiştir"
-      },
-      "statusChangeTitle": "Ödeme durumunu seçin",
-      "statusMenuButtons": {
-        "rtcl-pending": "Beklemede",
-        "rtcl-on-hold": "Beklemede",
-        "rtcl-completed": "Tamamlandı",
-        "rtcl-cancelled": "İptal Edildi",
-        "rtcl-refunded": "İade Edildi",
-        "rtcl-failed": "Başarısız",
-        "rtcl-created": "Oluşturuldu",
-        "rtcl-processing": "İşleniyor"
-      },
-      "statusUpdateBtn": "Durumu Güncelle",
-      "customServerErrorMessage": "Sunucudan veri alınırken hata oluştu.",
-      "noInternet": "İnternet Yok",
-      "orderId": "Sipariş ID: ",
-      "paymentMethod": "Ödeme Yöntemi: ",
-      "paymentDate": "Ödeme Tarihi: "
-    }
+    "statusUpdateBtn": "Durumu Güncelle",
+    "customServerErrorMessage": "Sunucudan veri alınırken hata oluştu.",
+    "noInternet": "İnternet Yok",
+    "orderId": "Sipariş ID: ",
+    "paymentMethod": "Ödeme Yöntemi: ",
+    "paymentDate": "Ödeme Tarihi: "
   }
+}
   

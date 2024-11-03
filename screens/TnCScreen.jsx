@@ -26,12 +26,7 @@ const TnCScreen = () => {
     <View style={styles.container}>
       <ScrollView>
         <View style={styles.mainWrap}>
-          <View style={styles.imgWrap}>
-            <Image
-              source={require("../assets/tnc_bg.png")}
-              style={styles.img}
-            />
-          </View>
+
           <View
             style={{
               alignItems: "center",

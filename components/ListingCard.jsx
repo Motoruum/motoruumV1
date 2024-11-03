@@ -272,6 +272,7 @@ const ListingCard = ({ onPress, item }) => {
                     }
                   : listingCardFallbackImageUrl
               }
+              resizeMode="contain"
             />
           </View>
           <View

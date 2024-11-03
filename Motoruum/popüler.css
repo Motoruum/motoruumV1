@@ -1,0 +1,81 @@
+#content .rtin-content {
+    position: inherit!important
+    ;
+}
+ #content .rtin-price {
+    position: absolute;
+    bottom: 35px;
+}
+#content .listing-grid-each-9 .rtin-item .rtin-content .rtin-cat {
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    font-size: 10px;
+    color: #acacac;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 58px;
+}
+#content .listing-grid-each-9 .rtin-item .rtin-content .rtin-cat {
+    border: none;
+    padding: 8px;
+    margin-left: -1rem;
+    border-radius: 0;
+    font-size: 13px;
+    color: #acacac;
+    margin-top: 5px;
+}
+#content .listing-grid-each {
+    height: 21rem;
+}#content .listing-grid-each-9 .rtin-item .rtcl-thumbnail {
+    border-radius: 8px 8px 0 0;
+    max-height: 7em;
+}
+#content .listing-grid-each .rtcl-listable .rtcl-listable-item .listable-label {
+    display: none;
+    font-weight: 600;
+}
+#content .rtin-thumb {
+    max-height: 7rem;
+}
+#content h3.rtin-title.listing-title {
+    display: none !important;
+}
+#content span.listable-value {
+    font-weight: 600;
+}
+#content .listing-grid-each .rtcl-listable {
+    margin-bottom: 3.5rem;
+}
+#content .listing-grid-each .rtcl-listable {
+    margin-top: 0px !important;
+}
+
+#content .elementor-widget .rtcl-listable .rtcl-listable-item:after {
+    content: none !important;
+    margin: 0px;
+}
+#content span.listable-value {
+    display: block;
+}
+#content .listing-grid-each .rtcl-listable .rtcl-listable-item {
+
+    display: block !important;
+}
+#content img.rtcl-thumbnail {
+    width: 100%;
+    object-fit:cover    ;
+        max-width: 100% !important;
+    height: auto !important;
+        aspect-ratio: 16 / 9; 
+    width: 100%;
+    height: auto;
+}
+
+#content .listing-grid-each-9 .rtin-item {
+    border: none;
+    border-radius: 8px;
+    padding: 0;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6) !important;
+    margin-bottom: 24px;
+}

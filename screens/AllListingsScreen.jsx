@@ -1277,7 +1277,7 @@ const styles = StyleSheet.create({
   logo: {
     height: windowWidth * 0.17,
     width: windowWidth * 0.25,
-    resizeMode: "contain",
+            resizeMode: "contain",
   },
   logoWrap: {
     height: windowWidth * 0.17,

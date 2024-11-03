@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, StyleSheet, ScrollView, Linking } from "react-native";
+import { View, Text, StyleSheet, ScrollView, Linking, Image } from "react-native";
 
 // Vector Icons
 import { MaterialCommunityIcons } from "@expo/vector-icons";
@@ -65,6 +65,10 @@ const AboutAppScreen = () => {
                 )}
               </View>
             ))}
+            <Image
+                    source={require("../assets/auth_logo_new.png")}
+                    style={styles.imageStyle}
+            />
             {!!appDescriptionData.link &&
               !!appDescriptionData.linkedPara.length && (
                 <View style={styles.linkedParaWrap}>
@@ -163,6 +167,13 @@ const styles = StyleSheet.create({
   titleWrap: {
     alignItems: "center",
     justifyContent: "center",
+  },
+
+
+  imageStyle: {
+    width: "100%",
+    height: 200,
+    marginBottom: 15,
   },
 });
 

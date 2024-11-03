@@ -16,7 +16,7 @@ export const miscConfig = {
   allowMultipleImageSelection: true,
   allowImageEditing: true,
   similarAdsOpenInSamePage: false,
-  defaultCountryCode: "US", // you can get list of country code here https://github.com/xcarpentier/react-native-country-picker-modal/blob/master/src/types.ts#L252
+  defaultCountryCode: "TR", // you can get list of country code here https://github.com/xcarpentier/react-native-country-picker-modal/blob/master/src/types.ts#L252
   countryCodes: [
     "AF",
     "AL",
