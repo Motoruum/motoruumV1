@@ -794,7 +794,7 @@
       "serverError": "Sunucu hatası",
       "timeOut": "İstek Zaman Aşımına Uğradı"
     },
-    "showAllofLocation": "Tümünü Göster",
+    "showAllofLocation": "Tüm İlçeler",
     "showAll": "Hepsini Göster",
     "nextLevelLocation": "Bir sonraki seviyedeki konumu seçin"
   },
@@ -1320,7 +1320,7 @@
 
   "drawerScreenTexts": {
     "copyrightText": "2024© Tüm hakları saklıdır.",
-    "linkText": "Hakkımızda"
+    "linkText": "Motoruum.com"
   },
 
   "frequentlyAskedQuestions": [
@@ -1412,22 +1412,22 @@
     "paras": [
       {
         "paraTitle": "",
-        "paraDetail": "Motoruum – Classima mobil uygulamasının oluşturucuları – paylaştığınız bilgilerin güvenliğini ve gizliliğini ön planda tutar ve değer verir. Kullanıcılarımızın uygulamayı olabildiğince rahat kullanmasını sağlamayı amaçlıyoruz. Bilgilerinizi bize emanet ediyorsanız, nasıl toplandığını, kullanıldığını ve korunduğunu anlamalısınız.\n\nClassima’yı edinmeye karar verdiğinizde, bizimle kaydolmanız gerekecek. Kayıt, bize Adınız, Soyadınız ve E-posta Adresinizi verir.",
+        "paraDetail": "Motoruum.com olarak, gizliliğinize ve kişisel verilerinizi koruma yükümlülüğümüze son derece önem veriyoruz. Bu Gizlilik Politikası, motoruum.com’u kullanırken sağladığınız kişisel bilgilerin nasıl toplandığını, işlendiğini ve korunduğunu açıklamaktadır. Bu politikayı kabul ederek, kişisel verilerinizin aşağıda belirtilen şartlar çerçevesinde işlenmesine onay vermektesiniz.",
         "paraType": "para"
       },
       {
-        "paraTitle": "Bilgi Toplama ve Kullanım",
-        "paraDetail": "Daha iyi bir deneyim için sizden belirli kişisel bilgileri sağlamanızı isteyebiliriz. Bu bilgiler ad, adres ve konum verileri gibi, ama bunlarla sınırlı olmamak üzere olabilir. Bu bilgiler yalnızca bize erişilebilir olacak ve yalnızca bu gizlilik politikasında belirtilen şekilde kullanılacaktır.",
+        "paraTitle": "Toplanan Veriler",
+        "paraDetail": "Motoruum.com platformunu kullanırken aşağıdaki kişisel veriler toplanabilir: \n\n Kimlik Bilgileri: Ad, soyad, T.C. kimlik numarası, firma adı (şirket türüne göre), vergi numarası. \n\nİletişim Bilgileri: E-posta adresi, telefon numarası, açık adres, il, ilçe. \n\nÖdeme Bilgileri: Kredi kartı, banka hesap bilgileri (ödeme işlemleri için). \n\nHesap Bilgileri: Kullanıcı adı, şifre ve kullanıcı işlemleri. \n\nCihaz ve Kullanım Bilgileri: IP adresi, tarayıcı bilgileri, işletim sistemi, cihaz bilgileri, motoruum.com’a erişim tarihi ve saatleri, tıklama verileri, gezinme bilgileri. \n\nİlan Bilgileri: Yüklediğiniz ürün ya da hizmet ilanlarının içerikleri (örneğin, motosiklet, aksesuar ya da yedek parça bilgileri).",
         "paraType": "para"
       },
       {
-        "paraTitle": "Kişisel Bilgiler:",
-        "paraDetail": "Kaydolduğunuzda ve adınızı, e-posta adresinizi, hesap kullanıcı adınızı ve şifrenizi sağladığınızda, adres bilginizi saklamayacağız. Bunun yerine, bu bilgiler 2Checkout – ödeme geçidi şirketimizde saklanacaktır.\n\nDestek amaçları için ek bilgilere ihtiyaç duyabiliriz, örneğin sitenizin URL’si, admin ve FTP erişimi gibi. Bu verileri yalnızca kapsamlı ve etkili destek gerektiğinde toplarız. Destek talepleri için aldığımız tüm veriler Freshdesk, üçüncü taraf destek sistemimizde saklanır.",
+        "paraTitle": "Veri Toplama Yöntemleri",
+        "paraDetail": "Doğrudan Kullanıcı Sağladığında: Kullanıcı kayıtları, ilan oluşturma, ödeme işlemleri ve iletişim formları gibi doğrudan kullanıcı tarafından sağlanan bilgiler.\nOtomatik Yöntemlerle: Web sitesinde çerezler (cookies) ve benzeri izleme teknolojileri aracılığıyla kullanıcı hareketlerinin izlenmesi.",
         "paraType": "para"
       },
       {
-        "paraTitle": "Kişisel Olmayan Bilgiler:",
-        "paraDetail": "Classima’yı indirdiğinizde, aynı ödeme geçidi IP adresinizi ve coğrafi konum bilgilerinizi toplar.",
+        "paraTitle": "Verilerin İşlenme Amaçları",
+        "paraDetail": "Topladığımız kişisel veriler, aşağıdaki amaçlarla işlenebilir:\n\nPlatformun İşletilmesi ve Yönetilmesi: Kullanıcı hesaplarının oluşturulması, yönetilmesi ve platformda verilen hizmetlerin sunulması.\nİşlem Güvenliği: Kullanıcıların kimlik doğrulama süreçleri ve ödeme işlemlerinin güvenli bir şekilde gerçekleştirilmesi.\nİletişim: Kullanıcılarla ilgili sorular, müşteri desteği, işlem doğrulaması gibi konularda iletişim kurulması.\nPazarlama ve Reklam: Platformda sunulan hizmetlerle ilgili pazarlama, tanıtım ve reklam faaliyetlerinin yürütülmesi. (Onay verilmişse)\nYasal Yükümlülüklerin Yerine Getirilmesi: Kişisel verilerin, yürürlükteki yasa ve düzenlemelere uygun olarak saklanması ve yasal taleplerin karşılanması.\nVerilerin Paylaşımı\nMotoruum.com olarak, kişisel verilerinizi yalnızca aşağıdaki durumlarda üçüncü taraflarla paylaşırız:\n\nYasal Yükümlülükler: Yasal talepler veya yetkili devlet kurumları tarafından talep edilmesi durumunda.\nHizmet Sağlayıcılar: Ödeme işlemleri, teknik destek, veri barındırma gibi hizmetlerin sağlanması için yetkilendirilmiş üçüncü taraf hizmet sağlayıcılarla.\nİşlem Tarafları: Alıcı ve satıcılar arasında işlemlerin gerçekleştirilmesi için gerekli olan durumlarda. Örneğin, bir satış işlemi gerçekleştirdiğinizde, karşı tarafla iletişim bilgilerinizi paylaşabiliriz.\n\n",
         "paraType": "para"
       },
       {
@@ -1436,48 +1436,43 @@
         "paraType": "para"
       },
       {
-        "paraTitle": "Kullanıcı Bilgileri Neden Toplanır?",
-        "paraDetail": "Bir web siteniz varsa ve Classima’yı kullanmanız gerekiyorsa, bizimle kaydolmanız gerekecek, bu durumda kişisel bilgilerinizi toplayacağız. Bu kayıt, sizi müşteri olarak kabul eder ve sitemizden öğeleri indirmenize izin verir.",
+        "paraTitle": "Veri Güvenliği",
+        "paraDetail": "Motoruum.com, kişisel verilerinizi korumak için gerekli tüm teknik ve idari önlemleri almaktadır. Verileriniz, yetkisiz erişim, kayıp, tahrip veya hukuka aykırı olarak işlenmeye karşı korumak amacıyla şifreleme, güvenlik duvarları ve benzeri güvenlik sistemleri ile korunmaktadır. Ayrıca, düzenli olarak güvenlik denetimleri yaparak sistemlerimizin güvenliğini sağlamaktayız. Veri ihlali durumunda, ilgili mevzuat çerçevesinde en kısa sürede sizleri bilgilendireceğiz.",
         "paraType": "para"
       },
       {
-        "paraTitle": "Verileriniz Ne İçin Kullanılır?",
-        "paraDetail": "Freshdesk destek sistemi ile saklanan verilerimiz sayesinde sizi müşteri olarak tanımlayabilir ve bildirimler ve güncellemeler gönderebiliriz. Gönderdiğimiz bilgiler ürün sürümleri, güncellemeler ve indirim tekliflerini içerebilir. Misafir kullanıcılar – kayıtlı olmayanlar – web sitelerimizde herhangi bir işlem yapma iznine sahip değildir. Bu nedenle, değerli bir müşteri olarak, bu işlemleri yapmanıza izin veriyoruz.",
+        "paraTitle": "Çerezler ve İzleme Teknolojileri",
+        "paraDetail": "Motoruum.com, kullanıcı deneyimini geliştirmek amacıyla çerezler kullanır. Çerezler, ziyaretçiler hakkında bilgi toplamak ve site kullanımını analiz etmek için kullanılır. Çerez ayarlarını tarayıcınızdan değiştirebilir, ancak bu durumda bazı hizmetlerimiz kısıtlanabilir.",
         "paraType": "para"
       },
       {
-        "paraTitle": "Kişisel Bilgiler Ne Kadar Süre Saklanır?",
-        "paraDetail": "Bizimle kayıt olduğunuzda, kişisel bilgileriniz ve e-posta adresiniz gelecekteki destek amacıyla saklanır. Bu bilgiler, kişisel bilgilerinizi sildiğiniz zamana kadar saklanır.",
+        "paraTitle": "Kişisel Verilerin Korunması",
+        "paraDetail": "Kişisel verilerin güvenliğini sağlamak amacıyla gerekli teknik ve idari önlemleri almaktayız. Platform üzerindeki veriler, yetkisiz erişim, kayıp veya hasara karşı güvenlik duvarları ve şifreleme yöntemleriyle korunur.",
         "paraType": "para"
       },
       {
-        "paraTitle": "Kişisel Bilgilerinizle Ne Yapmayız:",
-        "paraDetail": "Kişisel bilgilerinizi diğer şirketlerle pazarlama amacıyla paylaşmayacağız ve paylaşmayacağız. Ayrıca, kişisel bilgilerinizi yetkisiz kişilerle paylaşmak politikamızın dışındadır.",
+        "paraTitle": "Verilerin Saklanma Süresi",
+        "paraDetail": "Kişisel veriler, işlenme amacı ortadan kalktığında veya yasal saklama süresi sona erdiğinde silinir, yok edilir veya anonim hale getirilir. Saklama süresi, yasal zorunluluklar, işlem ihtiyaçları ve ticari gereksinimlere bağlı olarak değişiklik gösterebilir.",
         "paraType": "para"
       },
       {
-        "paraTitle": "Verileriniz Üzerindeki Haklarınız:",
-        "paraDetail": "Bir kayıtlı kullanıcı olarak, kişisel bilgilerinizi düzenleme hakkına sahipsiniz. Ayrıca, bilginizin bir dosyasının dışa aktarılmasını da talep edebilirsiniz. Giriş yaptıktan sonra, verilerinizi de silebilirsiniz.",
+        "paraTitle": "Kullanıcı Hakları",
+        "paraDetail": "Kullanıcılar, kişisel verilerine ilişkin aşağıdaki haklara sahiptir:\n\nVerilere Erişim Hakkı: Hangi kişisel verilerin işlendiğini öğrenme hakkına sahipsiniz.\nDüzeltme Hakkı: Yanlış veya eksik verilerin düzeltilmesini talep edebilirsiniz.\nSilme Hakkı: Kişisel verilerinizin silinmesini talep edebilirsiniz (yasal zorunluluklar ve işleme amacı ortadan kalktığında).\nİşlemeyi Kısıtlama Hakkı: Verilerinizin belirli durumlarda işlenmesini kısıtlayabilirsiniz.\nVeri Taşınabilirliği Hakkı: Verilerinizi yapılandırılmış, yaygın olarak kullanılan bir formatta talep etme hakkına sahipsiniz.\nİtiraz Hakkı: Kişisel verilerinizi işleme faaliyetlerine itiraz etme hakkınız vardır.\nBu haklarınızı kullanmak için [info@motoruum.com] adresi üzerinden bizimle iletişime geçebilirsiniz.",
         "paraType": "para"
       },
       {
-        "paraTitle": "Çerezler",
-        "paraDetail": "Çerezler, genellikle benzersiz anonim tanımlama için kullanılan küçük veri dosyalarıdır. Ziyaret ettiğiniz web sitesi bunları tarayıcınıza gönderir ve cihazınızın dahili belleğinde saklar.\n\nUygulamamız veya hizmetimiz çerezleri açıkça kullanmasa da, üçüncü taraf kodları bu bilgileri toplamak ve hizmetlerini geliştirmek için çerezleri kullanabilir. Çerezlerin cihazınıza gönderildiğini bilirsiniz ve çerezleri kabul etme veya reddetme seçeneğiniz vardır. Ancak, çerezleri reddetmek bazı hizmetlere erişiminizi engelleyebilir.",
+        "paraTitle": "Üçüncü Taraf Bağlantılar",
+        "paraDetail": "Motoruum.com, üçüncü taraf sitelere bağlantılar içerebilir. Bu siteler üzerinde kontrolümüz bulunmamaktadır ve gizlilik uygulamalarından sorumlu değiliz. Bu nedenle, bağlantı verilen sitelerin gizlilik politikalarını incelemenizi öneririz.",
         "paraType": "para"
       },
       {
-        "paraTitle": "Veri İhlallerine Karşı Güvenlik Prosedürlerimiz:",
-        "paraDetail": "Bize kişisel bilgilerinizi emanet ettiğiniz için size olan güveninizi önemsiyoruz. Bu nedenle, kişisel bilgilerinizi yetkisiz ifşalardan, erişimlerden veya kullanımlardan korumak için endüstri standartlarına uygun güvenlik önlemleri ve teknolojileri kullanıyoruz. Lütfen kayıt şifrenizi ve kullanıcı adınızı yetkisiz kişilere ifşa etmeyin, böylece gizliliğinizi korumamıza yardımcı olun.\n\nHiçbir internet iletim yöntemi veya elektronik depolama prosedürü %100 güvenli değildir, ancak RadiusTheme ve Classima kişisel bilgilerinizi korumak için her şeyi yapar.\n\nBilgileriniz yetkisiz kişiler tarafından erişilirse veya kaybolursa, bunu fark ettiğimiz anda sizi bilgilendireceğiz.",
+        "paraTitle": "Politika Değişiklikleri",
+          "paraDetail": "Motoruum.com, bu gizlilik politikasını zaman zaman güncelleyebilir. Değişiklik yapıldığı takdirde, güncellenmiş politika platformumuzda yayınlanacak ve gerekli olduğu durumlarda e-posta ile bilgilendirileceksiniz.",
         "paraType": "para"
       },
       {
-        "paraTitle": "Verilerinize Nasıl Erişebilirsiniz veya Kişisel Bilgilerinizi Nasıl Düzenlersiniz:",
-        "paraDetail": "Siteye giriş yaptığınızda, tüm hesap bilgileriniz düzenleme veya silme için kullanılabilir olacaktır. Classima uygulaması için e-posta bildirimlerini durdurmak istiyorsanız, sadece abone olmayı bırakın veya bize bir e-posta gönderin, e-posta veya hesabınızı sileceğiz. E-postanın konusuna 'kullanıcı adımı sil' yazdığınızdan emin olun.",
-        "paraType": "para"
-      },
-      {
-        "paraTitle": "Bize Ulaşın",
-        "paraDetail": "Gizlilik politikamız hakkında herhangi bir öneri veya sorunuz varsa, lütfen destek@radiustheme.com adresiyle bizimle iletişime geçin.",
+        "paraTitle": "İletişim",
+        "paraDetail": "Bu Gizlilik Politikası ile ilgili sorularınız, talepleriniz ya da endişeleriniz varsa, bizimle [info@motoruum.com] üzerinden iletişime geçebilirsiniz.",
         "paraType": "para"
       }
     ],

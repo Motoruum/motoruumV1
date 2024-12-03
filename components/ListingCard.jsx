@@ -50,6 +50,12 @@ const ListingCard = ({ onPress, item }) => {
     return decodeString(items[items.length - 1].name);
   };
 
+  const getLocation = (contact) => {
+    let locationData = contact?.locations?.map((loc) => loc?.name).join(", ") || "";
+    let stateData = contact?.state ? decodeString(contact.state) : ""; // İl bilgisi
+    return `${locationData}${stateData ? `, ${stateData}` : ''}`; // İlçe ve il bilgisi
+  };
+
   return item?.listAd && admobConfig?.admobEnabled ? (
     <ListAdComponent dummy={item.dummy} />
   ) : (
@@ -112,7 +118,6 @@ const ListingCard = ({ onPress, item }) => {
                 {
                   top: ios ? "8%" : "6%",
                   width: ios ? "60%" : "60%",
-                  // transform: [{ rotate: "45deg" }],
                   transform: [{ rotate: rtl_support ? "-45deg" : "45deg" }],
                 },
                 rtl_support
@@ -127,6 +132,7 @@ const ListingCard = ({ onPress, item }) => {
           )}
           {item?.badges?.includes("is-featured") &&
             config?.badges?.featured?.listing && (
+           
               <View
                 style={[
                   {
@@ -286,41 +292,29 @@ const ListingCard = ({ onPress, item }) => {
           >
             <View style={styles.view}>
               <Text
-                style={[
-                  styles.itemTitle,
-                  { paddingBottom: ios ? 3 : 1 },
-                  rtlTextA,
-                ]}
+                style={[styles.itemTitle, { paddingBottom: ios ? 3 : 1 }, rtlTextA]}
                 numberOfLines={2}
               >
                 {decodeString(item.title)}
               </Text>
 
               <View
-                style={[
-                  styles.itemLocationWrap,
-                  { paddingBottom: ios ? 5 : 3 },
-                  rtlView,
-                ]}
+                style={[styles.itemLocationWrap, { paddingBottom: ios ? 5 : 3 }, rtlView]}
               >
-                <AntDesign name="tagso" size={12} color={COLORS.text_gray} />
+                <AntDesign name="tagso" size={12} color={COLORS 
+.text_gray} />
                 <Text style={[styles.itemLocation, rtlTextA]} numberOfLines={1}>
                   {getTexonomy(item.categories) || ""}
                 </Text>
               </View>
 
-              {(!!item?.contact?.locations?.length ||
-                !!item?.contact?.geo_address) && (
+              {(!!item?.contact?.locations?.length || !!item?.contact?.geo_address) && (
                 <>
                   {config.location_type === "local" ? (
                     <>
                       {!!item?.contact?.locations?.length && (
                         <View
-                          style={[
-                            styles.itemLocationWrap,
-                            { paddingBottom: ios ? 5 : 3 },
-                            rtlView,
-                          ]}
+                          style={[styles.itemLocationWrap, { paddingBottom: ios ? 5 : 3 }, rtlView]}
                         >
                           <FontAwesome5
                             name="map-marker-alt"
@@ -328,7 +322,7 @@ const ListingCard = ({ onPress, item }) => {
                             color={COLORS.text_gray}
                           />
                           <Text style={[styles.itemLocation, rtlTextA]}>
-                            {getTexonomy(item.contact.locations)}
+                            {getLocation(item.contact)} {/* İl ve ilçe bilgisi burada */}
                           </Text>
                         </View>
                       )}
@@ -337,11 +331,7 @@ const ListingCard = ({ onPress, item }) => {
                     <>
                       {!!item?.contact?.geo_address && (
                         <View
-                          style={[
-                            styles.itemLocationWrap,
-                            { paddingBottom: ios ? 5 : 3 },
-                            rtlView,
-                          ]}
+                          style={[styles.itemLocationWrap, { paddingBottom: ios ? 5 : 3 }, rtlView]}
                         >
                           <FontAwesome5
                             name="map-marker-alt"
@@ -362,11 +352,7 @@ const ListingCard = ({ onPress, item }) => {
               )}
               {config?.available_fields?.listing.includes("date") && (
                 <View
-                  style={[
-                    styles.itemLocationWrap,
-                    { paddingBottom: ios ? 5 : 3 },
-                    rtlView,
-                  ]}
+                  style={[styles.itemLocationWrap, { paddingBottom: ios ? 5 : 3 }, rtlView]}
                 >
                   <AntDesign
                     name="clockcircleo"
@@ -388,18 +374,13 @@ const ListingCard = ({ onPress, item }) => {
               {miscConfig?.enableViewCounts &&
                 config?.available_fields?.listing.includes("views") && (
                   <View
-                    style={[
-                      styles.itemLocationWrap,
-                      { paddingBottom: ios ? 5 : 3 },
-                      rtlView,
-                    ]}
+                    style={[styles.itemLocationWrap, { paddingBottom: ios ? 5 : 3 }, rtlView]}
                   >
                     <FontAwesome5
                       name="eye"
                       size={12}
                       color={COLORS.text_gray}
                     />
-
                     <Text
                       style={[styles.itemLocation, rtlTextA]}
                       numberOfLines={1}
@@ -415,7 +396,6 @@ const ListingCard = ({ onPress, item }) => {
                 style={{
                   flexDirection: rtl_support ? "row-reverse" : "row",
                   alignItems: "center",
-                  // paddingTop: 5,
                 }}
               >
                 <MaterialIcons
@@ -470,6 +450,7 @@ const ListingCard = ({ onPress, item }) => {
     </View>
   );
 };
+
 const styles = StyleSheet.create({
   badgeSection: {
     flexDirection: "row",
@@ -482,7 +463,7 @@ const styles = StyleSheet.create({
     margin: 2,
   },
   badgeStyle: {
-    padding: 3,
+    padding:  3,
     elevation: 5,
   },
   badgeTextStyle: {
@@ -502,7 +483,6 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     paddingHorizontal: "3%",
-
     marginVertical: 10,
   },
   itemCategory: {
@@ -561,7 +541,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     paddingVertical: 3,
-
     flex: 1,
     elevation: 7,
     zIndex: 20,
