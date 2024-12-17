@@ -6,23 +6,25 @@ export interface LOCALE_TYPE {
 }
 
 export const LOCALE = {
-  monthNames: [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
-  ],
-  dayNames: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-  today: "Today",
-  year: "",
+   monthNames: [
+     "Ocak",
+     "Şubat",
+     "Mart",
+     "Nisan",
+     "Mayıs",
+     "Haziran",
+     "Temmuz",
+     "Ağustos",
+     "Eylül",
+     "Ekim",
+     "Kasım",
+     "Aralık",
+   ],
+   dayNames: ["Paz", "Pzt", "Sal", "Çar", "Per", "Cum", "Cmt"],
+   today: "Bugün",
+   year: "",
+
+
 
   // monthNames: [
   //   '1월',

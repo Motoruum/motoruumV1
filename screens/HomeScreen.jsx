@@ -704,6 +704,9 @@ const HomeScreen = ({ navigation }) => {
       return null;
     }
   };
+            const customCategoriesData = topCategoriesData.filter((_, index) =>
+              [0, 1, 2].includes(index)
+            );
 
   const ListingListHeader = () => (
     <Animated.View>
@@ -783,13 +786,14 @@ const HomeScreen = ({ navigation }) => {
             </Text>
           </View>
           {/* categories flatlist */}
+
           <FlatList
-            data={topCategoriesData}
-            renderItem={renderCategory}
-            keyExtractor={keyExtractor}
-            showsHorizontalScrollIndicator={false}
-            inverted={rtl_support}
-            numColumns={3}
+ data={customCategoriesData}
+  renderItem={renderCategory}
+  keyExtractor={keyExtractor}
+  showsHorizontalScrollIndicator={true}
+  inverted={rtl_support}
+  numColumns={3}
           />
           <TouchableOpacity
             onPress={handleSeeAll}

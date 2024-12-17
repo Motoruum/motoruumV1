@@ -97,6 +97,7 @@ const SelectCategoryScreen = ({ route, navigation }) => {
       </View>
     </TouchableOpacity>
   );
+  //       {getAllOptionsTaxonomy()}
   const Picker = () => (
     <View style={styles.pickerWrap}>
       <TouchableOpacity
@@ -105,7 +106,7 @@ const SelectCategoryScreen = ({ route, navigation }) => {
       >
         <Text style={[styles.catPickerOptions, rtlText]} numberOfLines={1}>
           {__("selectCategoryScreenTexts.showAllofCategory", appSettings.lng)}
-          {getAllOptionsTaxonomy()}
+
         </Text>
       </TouchableOpacity>
       {categoryData[Object.keys(categoryData).length - 1].map((data) => (

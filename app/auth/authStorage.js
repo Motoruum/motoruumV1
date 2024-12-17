@@ -10,6 +10,7 @@ const storeUser = async (authUser) => {
   }
 };
 
+
 const getUser = async () => {
   try {
     return await AsyncStorage.getItem(key);
