@@ -63,7 +63,7 @@
       "bitcode": "Debug",
       "usesAppleSignIn": true,
       "supportsTablet": true,
-      "bundleIdentifier": "com.classima",
+      "bundleIdentifier": "com.motoruum",
       "buildNumber": "1",
       "usesIcloudStorage": true,
       "infoPlist": {
@@ -86,7 +86,8 @@
       }
     },
     "android": {
-      "package": "com.classima",
+      "package": "com.motoruum",
+      "versionCode" : 1,
       "config": {
         "googleMaps": {
           "apiKey": "h87nm7765gb87ni-ux2m6A"

@@ -1,4 +1,4 @@
-package com.classima
+package com.motoruum
 
 import android.os.Build
 import android.os.Bundle

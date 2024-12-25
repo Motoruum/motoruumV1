@@ -43,7 +43,7 @@
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
         <data android:scheme="motoruum"/>
-        <data android:scheme="com.classima"/>
+        <data android:scheme="com.motoruum"/>
         <data android:scheme="exp+motoruum"/>
       </intent-filter>
     </activity>
