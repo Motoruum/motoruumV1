@@ -7,8 +7,8 @@ export const miscConfig = {
   enableAppSharing: true,
   appSharingLinks: {
     android:
-      "https://play.google.com/store/apps/details?id=com.classima.radiustheme",
-    iOS: "https://apps.apple.com/us/app/classima-classified-ads/id1609365955",
+      "https://play.google.com/store/apps/details?id=com.motoruum",
+    iOS: "https://apps.apple.com/us/app/motoruum",
   },
   oldHomeScreenLayout: false,
   oldListingCard: false,

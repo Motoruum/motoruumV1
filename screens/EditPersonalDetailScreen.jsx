@@ -106,26 +106,26 @@ const EditPersonalDetailScreen = ({ route, navigation }) => {
             )
         )
         .min(
-          5,
+          13,
           __(
             "editPersonalDetailScreenTexts.fieldLabels.phone",
             appSettings.lng
           ) +
             " " +
             __(
-              "editPersonalDetailScreenTexts.formValidation.minimumLength5",
+              "editPersonalDetailScreenTexts.formValidation.minimumLength10",
               appSettings.lng
             )
         ),
       whatsapp_number: Yup.string().min(
-        5,
+        13,
         __(
           "editPersonalDetailScreenTexts.fieldLabels.whatsapp",
           appSettings.lng
         ) +
           " " +
           __(
-            "editPersonalDetailScreenTexts.formValidation.minimumLength3",
+            "editPersonalDetailScreenTexts.formValidation.minimumLength10",
             appSettings.lng
           )
       ),
@@ -142,30 +142,7 @@ const EditPersonalDetailScreen = ({ route, navigation }) => {
             appSettings.lng
           )
         ),
-      zipcode: Yup.string()
-        .required(
-          __(
-            "editPersonalDetailScreenTexts.fieldLabels.zipcode",
-            appSettings.lng
-          ) +
-            " " +
-            __(
-              "editPersonalDetailScreenTexts.formValidation.requiredField",
-              appSettings.lng
-            )
-        )
-        .min(
-          3,
-          __(
-            "editPersonalDetailScreenTexts.fieldLabels.zipcode",
-            appSettings.lng
-          ) +
-            " " +
-            __(
-              "editPersonalDetailScreenTexts.formValidation.minimumLength3",
-              appSettings.lng
-            )
-        ),
+
       address: Yup.string().required(
         __(
           "editPersonalDetailScreenTexts.fieldLabels.address",
@@ -584,27 +561,41 @@ const EditPersonalDetailScreen = ({ route, navigation }) => {
                           )}
                           <Text style={styles.required}> *</Text>
                         </Text>
-                        <TextInput
-                          style={[
-                            styles.formInput,
-                            {
-                              color: user?.phone_verified
-                                ? COLORS.text_gray
-                                : COLORS.text_dark,
-                            },
-                            rtlTextA,
-                          ]}
-                          onChangeText={handleChange("phone")}
-                          onBlur={handleBlur("phone")}
-                          value={values.phone}
-                          placeholder={__(
-                            "editPersonalDetailScreenTexts.fieldLabels.phone",
-                            appSettings.lng
-                          )}
-                          defaultValue={data.phone || ""}
-                          keyboardType="phone-pad"
-                          editable={!user?.phone_verified}
-                        />
+                       <TextInput
+                         style={[
+                           styles.formInput,
+                           {
+                             color: user?.phone_verified
+                               ? COLORS.text_gray
+                               : COLORS.text_dark,
+                           },
+                           rtlTextA,
+                         ]}
+                         onChangeText={(text) => {
+                           // Kullanıcı `+90` kısmını silmeye çalışırsa, otomatik olarak düzelt
+                           if (!text.startsWith("+90")) {
+                             text = "0" + text.replace(/^\+90/, "");
+                           }
+
+                           // Sadece +90 sonrası kısmı kontrol et
+                           const phoneWithoutPrefix = text.replace(/^\+90/, "");
+
+                           // En fazla 10 hane girişe izin ver
+                           if (phoneWithoutPrefix.length <= 10) {
+                             handleChange("phone")(text);
+                           }
+                         }}
+                         onBlur={handleBlur("phone")}
+                         value={values.phone.startsWith("+90") ? values.phone : "+90"}
+                         placeholder={__(
+                           "editPersonalDetailScreenTexts.fieldLabels.phone",
+                           appSettings.lng
+                         )}
+                         keyboardType="phone-pad"
+                         editable={!user?.phone_verified}
+                       />
+
+
                         <View style={styles.inputErrorWrap}>
                           {errors.phone && touched.phone && (
                             <Text style={[styles.inputErrorMessage, rtlTextA]}>
@@ -620,18 +611,46 @@ const EditPersonalDetailScreen = ({ route, navigation }) => {
                             appSettings.lng
                           )}
                         </Text>
-                        <TextInput
-                          style={[styles.formInput, rtlTextA]}
-                          onChangeText={handleChange("whatsapp_number")}
-                          onBlur={handleBlur("whatsapp_number")}
-                          value={values.whatsapp_number}
-                          placeholder={__(
-                            "editPersonalDetailScreenTexts.fieldLabels.whatsapp",
-                            appSettings.lng
-                          )}
-                          defaultValue={data.whatsapp_number || ""}
-                          keyboardType="phone-pad"
-                        />
+                       <TextInput
+                         style={[styles.formInput, rtlTextA]}
+                         onChangeText={(text) => {
+                           // Eğer kullanıcı +90'ı tamamen silerse, hiçbir şey yapma
+                           if (text === "+9") {
+                             // Eğer sadece "+9" kaldıysa, +90'ı eklememek için işlemi sonlandırıyoruz
+                             return;
+                           }
+
+                           // Eğer +90'ın sonundaki 0 silinirse, 0'ı geri ekle
+                           if (text.startsWith("+9") && text.length === 3 && !text.startsWith("+90")) {
+                             text = "+90"; // Eğer sadece +9 kaldıysa, +90'ı geri ekle
+                           }
+
+                           // Sadece +90 ile başlamıyorsa, başına +90 ekle
+                           if (!text.startsWith("+90")) {
+                             text = "+90" + text.replace(/^\+90/, "");
+                           }
+
+                           // Sadece +90 sonrası kısmı kontrol et
+                           const phoneWithoutPrefix = text.replace(/^\+90/, "");
+
+                           // En fazla 10 haneli girişe izin ver
+                           if (phoneWithoutPrefix.length <= 10) {
+                             handleChange("whatsapp_number")(text);
+                           }
+                         }}
+                         onBlur={handleBlur("whatsapp_number")}
+                         value={values.whatsapp_number.startsWith("+90")
+                           ? values.whatsapp_number
+                           : "+90" + values.whatsapp_number}
+                         placeholder={__(
+                           "editPersonalDetailScreenTexts.fieldLabels.whatsapp",
+                           appSettings.lng
+                         )}
+                         defaultValue={data.whatsapp_number || ""}
+                         keyboardType="phone-pad"
+                       />
+
+
                         <View style={styles.inputErrorWrap}>
                           {errors.whatsapp_number &&
                             touched.whatsapp_number && (
@@ -675,26 +694,21 @@ const EditPersonalDetailScreen = ({ route, navigation }) => {
                             "editPersonalDetailScreenTexts.fieldLabels.zipcode",
                             appSettings.lng
                           )}
-                          <Text style={styles.required}> *</Text>
+
                         </Text>
                         <TextInput
                           style={[styles.formInput, rtlTextA]}
                           onChangeText={handleChange("zipcode")}
                           onBlur={handleBlur("zipcode")}
-                          value={values.zipcode}
+                          value={values.zipcode} // Zipcode'ı takip eder
                           placeholder={__(
                             "editPersonalDetailScreenTexts.fieldLabels.zipcode",
                             appSettings.lng
                           )}
-                          defaultValue={data.zipcode || ""}
+                          defaultValue={data.zipcode || ""} // Varsayılan değer olarak mevcut veriyi kullan
                         />
-                        <View style={styles.inputErrorWrap}>
-                          {errors.zipcode && touched.zipcode && (
-                            <Text style={[styles.inputErrorMessage, rtlTextA]}>
-                              {errors.zipcode}
-                            </Text>
-                          )}
-                        </View>
+
+
                       </View>
                       <View style={styles.inputWrap}>
                         <Text style={[styles.label, rtlTextA]}>

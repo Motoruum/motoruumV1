@@ -526,7 +526,7 @@ const PromotedScreen = ({ navigation, route }) => {
                       ? featured_cat_name[0]
                       : top_cat_name[0]
                   )
-                : __("homeScreenTexts.latestAdsText", appSettings.lng)}
+                : __("homeScreenTexts.promoteText", appSettings.lng)}
             </Text>
             {!!searchData?.categories && (
               <>
@@ -652,7 +652,7 @@ const PromotedScreen = ({ navigation, route }) => {
                       ? featured_cat_name[0]
                       : top_cat_name[0]
                   )
-                : __("homeScreenTexts.latestAdsText", appSettings.lng)}
+                : __("homeScreenTexts.promoteText", appSettings.lng)}
             </Text>
             {!!searchData?.categories && (
               <>

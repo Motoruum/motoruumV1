@@ -252,6 +252,7 @@
       "requiredField": "Gerekli.",
       "minimumLength5": "En az 5 karakter olmalıdır.",
       "minimumLength3": "En az 3 karakter olmalıdır.",
+      "minimumLength10": "En az 10 karakter olmalıdır.",
       "validEmail": "Geçerli bir e-posta olmalıdır."
     }
   },
@@ -283,6 +284,7 @@
       "requiredField": "gerekli.",
       "minimumLength5": "en az 5 karakter olmalıdır.",
       "minimumLength3": "en az 3 karakter olmalıdır.",
+      "minimumLength10": "En az 10 karakter olmalıdır.",
       "validEmail": "Geçerli bir e-posta olmalıdır.",
       "validUrl": "Geçerli bir URL olmalıdır."
     },
@@ -339,8 +341,9 @@
     },
     "formValidation": {
       "requiredField": "Gereklidir.",
-      "minimumLength5": "En az 5 karakter olmalıdır.",
-      "minimumLength3": "En az 3 karakter olmalıdır.",
+      "minimumLength5": "en az 5 karakter olmalıdır.",
+      "minimumLength3": "en az 3 karakter olmalıdır.",
+      "minimumLength10": "en az 10 karakter olmalıdır.",
       "validUrl": "Geçerli bir URL olmalıdır."
     },
     "enterNewPassword": "Yeni Şifre Girin",
@@ -369,6 +372,7 @@
     "noListingsMessage": "Üzgünüz... Hiçbir ilan bulunamadı.",
     "selectLocationText": "Konum",
     "latestAdsText": "Son İlanlar",
+    "promoteText": "Acil İlanlar",
     "topCategoriesText": "Kategoriler",
     "requestTimedOut": "İstek Zaman Aşımına Uğradı!",
     "exitAppWarning": "Uygulamadan çıkmak istediğinizden emin misiniz?",
@@ -695,6 +699,7 @@
       "requiredField": "gerekli.",
       "minimumLength5": "en az 5 karakter olmalıdır.",
       "minimumLength3": "en az 3 karakter olmalıdır.",
+      "minimumLength10": "En az 10 karakter olmalıdır.",
       "validEmail": "Geçerli bir e-posta olmalıdır.",
       "validUrl": "Geçerli bir URL olmalıdır."
     },
@@ -840,6 +845,7 @@
       "minimumLength3": "en az 3 karakter olmalıdır.",
       "minimumLength5": "en az 5 karakter olmalıdır.",
       "minimumLength6": "en az 6 karakter olmalıdır.",
+      "minimumLength10": "En az 10 karakter olmalıdır.",
       "validEmail": "Geçerli bir e-posta olmalıdır."
     },
     "formFieldPlaceholders": {
@@ -990,7 +996,7 @@
     "openingHourOpen": "Açık",
     "openingHourClose": "Kapalı",
     "viewMoreButtonText": "Bu Mağaza Hakkında Daha Fazla Gör",
-    "latestAds": "Son İlanlar",
+    "latestAds": "Son İlanlar1",
     "cancelButtonTitle": "İptal",
     "viewsCount": "Görünümler : ",
     "noData": "Veri sağlanmamış.",
@@ -1163,6 +1169,7 @@
       "requiredField": "gereklidir.",
       "minimumLength5": "en az 5 karakter olmalıdır.",
       "minimumLength3": "en az 3 karakter olmalıdır.",
+      "minimumLength10": "En az 10 karakter olmalıdır.",
       "validEmail": "Geçerli bir e-posta olmalıdır.",
       "geoAddressRequired": "Bu alan gereklidir"
     },
@@ -1270,7 +1277,7 @@
       "id": "all_stores"
     },
     {
-      "title": "SSS",
+      "title": "Sık Sorulan Sorular",
       "id": "faq"
     },
     {

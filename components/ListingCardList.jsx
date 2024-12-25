@@ -23,6 +23,11 @@ import { miscConfig } from "../app/services/miscConfig";
 
 const { width: screenWidth } = Dimensions.get("screen");
 const listingCardFallbackImageUrl = require("../assets/100x100.png");
+const getLocation = (contact) => {
+    let locationData = contact?.locations?.map((loc) => loc?.name).join(", ") || "";
+    let stateData = contact?.state ? decodeString(contact.state) : ""; // İl bilgisi
+    return `${locationData}${stateData ? `, ${stateData}` : ''}`; // İlçe ve il bilgisi
+  };
 
 const ListingCardList = ({ onPress, item }) => {
   const [{ config, ios, appSettings, rtl_support }] = useStateValue();
@@ -390,59 +395,69 @@ const ListingCardList = ({ onPress, item }) => {
                     </View>
                   )}
 
-                {(!!item?.contact?.locations?.length ||
-                  !!item?.contact?.geo_address) && (
-                  <>
-                    {config.location_type === "local" ? (
-                      <>
-                        {!!item?.contact?.locations?.length && (
-                          <View
+              {(!!item?.contact?.locations?.length || !!item?.contact?.geo_address) && (
+                <>
+                  {config.location_type === "local" ? (
+                    <>
+                      {!!item?.contact?.locations?.length && (
+                        <View
+                          style={[
+                            styles.itemLocationWrap,
+                            { paddingBottom: ios ? 5 : 3, flexDirection: 'row', alignItems: 'center' },
+                            rtlView,
+                          ]}
+                        >
+                          <FontAwesome5
+                            name="map-marker-alt"
+                            size={10}
+                            color={COLORS.text_gray}
+                          />
+                          <Text
                             style={[
-                              styles.featuredItemLocationWrap,
-                              { paddingBottom: ios ? 5 : 3 },
-                              rtlView,
+                              styles.itemLocation,
+                              rtlTextA,
+                              { marginLeft: 5, color: COLORS.gray }, // Yazı fontu gri
                             ]}
                           >
-                            <FontAwesome5
-                              name="map-marker-alt"
-                              size={12}
-                              color={COLORS.text_gray}
-                            />
-                            <Text
-                              style={[styles.featuredItemLocation, rtlTextA]}
-                            >
-                              {getTexonomy(item.contact.locations)}
-                            </Text>
-                          </View>
-                        )}
-                      </>
-                    ) : (
-                      <>
-                        {!!item?.contact?.geo_address && (
-                          <View
+                            {getLocation(item.contact)} {/* İl ve ilçe bilgisi burada */}
+                          </Text>
+                        </View>
+                      )}
+                    </>
+                  ) : (
+                    <>
+                      {!!item?.contact?.geo_address && (
+                        <View
+                          style={[
+                            styles.itemLocationWrap,
+                            { paddingBottom: ios ? 5 : 3, flexDirection: 'row', alignItems: 'center' },
+                            rtlView,
+                          ]}
+                        >
+                          <FontAwesome5
+                            name="map-marker-alt"
+                            size={10}
+                            color={COLORS.text_gray}
+                          />
+                          <Text
                             style={[
-                              styles.featuredItemLocationWrap,
-                              { paddingBottom: ios ? 5 : 3 },
-                              rtlView,
+                              styles.itemLocation,
+                              rtlTextA,
+                              { marginLeft: 5, color: COLORS.gray }, // Yazı fontu gri
                             ]}
+                            numberOfLines={1}
                           >
-                            <FontAwesome5
-                              name="map-marker-alt"
-                              size={12}
-                              color={COLORS.text_gray}
-                            />
-                            <Text
-                              style={[styles.featuredItemLocation, rtlTextA]}
-                              numberOfLines={1}
-                            >
-                              {decodeString(item.contact.geo_address)}
-                            </Text>
-                          </View>
-                        )}
-                      </>
-                    )}
-                  </>
-                )}
+                            {decodeString(item.contact.geo_address)}
+                          </Text>
+                        </View>
+                      )}
+                    </>
+                  )}
+                </>
+              )}
+
+
+
               </View>
             </View>
             {config?.available_fields?.listing.includes("price") && (

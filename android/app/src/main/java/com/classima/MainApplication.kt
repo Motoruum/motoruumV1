@@ -1,4 +1,4 @@
-package com.classima
+package com.motoruum
 
 import android.app.Application
 import android.content.res.Configuration

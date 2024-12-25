@@ -164,13 +164,6 @@ const LoginScreen = ({ navigation }) => {
               res?.problem ||
               __("loginScreenTexts.customResponseError", appSettings.lng)
           );
-          handleError(
-            res?.data?.message ||
-              res?.data?.error_message ||
-              res?.data?.error ||
-              res?.problem ||
-              __("loginScreenTexts.customResponseError", appSettings.lng)
-          );
           setLoading(false);
         }
       });
@@ -468,8 +461,8 @@ const LoginScreen = ({ navigation }) => {
             <Image
               source={require("../assets/auth_logo_new.png")}
               style={{
-                width: screenWidth * 0.5,
-                height: screenWidth * 0.25,
+                width: screenWidth * 0.75,
+                height: screenWidth * 1,
                 resizeMode: "contain",
               }}
             />
@@ -613,13 +606,13 @@ const LoginScreen = ({ navigation }) => {
                       loading={loading}
                     />
                   </View>
-                  {responseErrorMessage && (
-                    <View style={styles.responseErrorWrap}>
-                      <Text style={styles.responseErrorMessage}>
-                        {responseErrorMessage}
-                      </Text>
-                    </View>
-                  )}
+                    {responseErrorMessage && (
+                      <View style={styles.responseErrorWrap}>
+                        <Text style={styles.responseErrorMessage}>
+                          {responseErrorMessage.replace(/^:|[?]$/g, "")}
+                        </Text>
+                      </View>
+                    )}
                 </View>
               )}
             </Formik>
