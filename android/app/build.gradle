@@ -83,9 +83,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.classima'
+    namespace 'com.motoruum'
     defaultConfig {
-        applicationId 'com.classima'
+        applicationId 'com.motoruum'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 41
@@ -95,7 +95,7 @@ android {
     }
     signingConfigs {
         debug {
-            storeFile file('debug.keystore')
+            storeFile file('myapp.keystore')
             storePassword 'android'
             keyAlias 'androiddebugkey'
             keyPassword 'android'
@@ -112,6 +112,7 @@ android {
             shrinkResources (findProperty('android.enableShrinkResourcesInReleaseBuilds')?.toBoolean() ?: false)
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+
         }
     }
     packagingOptions {
