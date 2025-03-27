@@ -293,7 +293,7 @@ const SettingsScreen = ({ navigation }) => {
       >
         <View style={styles.contentWrapper}>
           {/* Language Setting */}
-          {Object.keys(languages).length > 1 && (
+          {/* {Object.keys(languages).length > 1 && (
             <View
               style={[
                 styles.notiWrapper,
@@ -372,7 +372,7 @@ const SettingsScreen = ({ navigation }) => {
                 </View>
               )}
             </View>
-          )}
+          )} */}
           {/* Currency */}
           {config?.multiCurrency?.type === "dynamic" &&
             config?.multiCurrency?.enable_selection === true && (
