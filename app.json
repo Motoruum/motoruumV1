@@ -87,12 +87,7 @@
     },
     "android": {
       "package": "com.motoruum",
-      "versionCode" : 1,
-      "config": {
-        "googleMaps": {
-          "apiKey": "h87nm7765gb87ni-ux2m6A"
-        }
-      },
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon_new.png",
         "backgroundColor": "#fff"
